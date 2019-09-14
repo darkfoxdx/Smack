@@ -1,1 +1,1 @@
-org.jivesoftware.smack.xml.stax.StaxXmlPullParserFactory
+com.advisoryapps.smack.xml.stax.StaxXmlPullParserFactory

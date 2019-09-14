@@ -12,12 +12,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.jingle.nat;
+package com.advisoryapps.smackx.jingle.nat;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import org.jivesoftware.smack.test.SmackTestCase;
+import com.advisoryapps.smack.test.SmackTestCase;
 
 public class TransportCandidateTest extends SmackTestCase {
 

@@ -6,7 +6,7 @@ Messaging using Chats
 Sending messages back and forth is at the core of instant messaging. Although
 individual messages can be sent and received as packets, it's generally easier
 to treat the string of messages as a chat using the
-`org.jivesoftware.smack.chat2.Chat` class.
+`Chat` class.
 
 Chat
 ----

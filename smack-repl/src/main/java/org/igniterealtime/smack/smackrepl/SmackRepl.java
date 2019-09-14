@@ -20,8 +20,8 @@
  */
 package org.igniterealtime.smack.smackrepl;
 
-import org.jivesoftware.smack.SmackConfiguration;
-import org.jivesoftware.smack.util.dns.javax.JavaxResolver;
+import com.advisoryapps.smack.SmackConfiguration;
+import com.advisoryapps.smack.util.dns.javax.JavaxResolver;
 
 public class SmackRepl {
 

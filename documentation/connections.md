@@ -6,9 +6,9 @@ Smack: XMPPConnection Management
 Creating a Connection
 ---------------------
 
-The `org.jivesoftware.smack.XMPPConnection` interface manages your connection to
+The `XMPPConnection` interface manages your connection to
 an XMPP server. The default implementation is the
-`org.jivesoftware.smack.tcp.XMPPTCPConnection` class. The class contains three constructors. The simplest, `XMPPTCPConnection(CharSequence, String, String)` takes the username, password, and server name you'd like
+`XMPPTCPConnection` class. The class contains three constructors. The simplest, `XMPPTCPConnection(CharSequence, String, String)` takes the username, password, and server name you'd like
 to connect to as arguments. All default connection settings will be used:
 
   * A DNS SRV lookup will be performed to find the exact address and port (typically 5222) that the server resides at.

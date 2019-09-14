@@ -24,17 +24,17 @@ import java.io.IOException;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 
-import org.jivesoftware.smack.SmackException;
-import org.jivesoftware.smack.SmackException.NoResponseException;
-import org.jivesoftware.smack.SmackException.NotConnectedException;
-import org.jivesoftware.smack.XMPPConnection;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.XMPPException.XMPPErrorException;
-import org.jivesoftware.smack.tcp.XMPPTCPConnection;
-import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
-import org.jivesoftware.smack.util.TLSUtils;
+import com.advisoryapps.smack.SmackException;
+import com.advisoryapps.smack.SmackException.NoResponseException;
+import com.advisoryapps.smack.SmackException.NotConnectedException;
+import com.advisoryapps.smack.XMPPConnection;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.XMPPException.XMPPErrorException;
+import com.advisoryapps.smack.tcp.XMPPTCPConnection;
+import com.advisoryapps.smack.tcp.XMPPTCPConnectionConfiguration;
+import com.advisoryapps.smack.util.TLSUtils;
 
-import org.jivesoftware.smackx.iqregister.AccountManager;
+import com.advisoryapps.smackx.iqregister.AccountManager;
 
 import org.jxmpp.jid.DomainBareJid;
 import org.jxmpp.jid.impl.JidCreate;

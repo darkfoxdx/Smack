@@ -12,13 +12,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.jingle;
+package com.advisoryapps.smackx.jingle;
 
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.jingle.media.JingleMediaManager;
-import org.jivesoftware.smackx.jingle.mediaimpl.test.TestMediaManager;
-import org.jivesoftware.smackx.jingle.nat.FixedResolver;
-import org.jivesoftware.smackx.jingle.nat.FixedTransportManager;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.jingle.media.JingleMediaManager;
+import com.advisoryapps.smackx.jingle.mediaimpl.test.TestMediaManager;
+import com.advisoryapps.smackx.jingle.nat.FixedResolver;
+import com.advisoryapps.smackx.jingle.nat.FixedTransportManager;
 
 import java.util.ArrayList;
 import java.util.List;

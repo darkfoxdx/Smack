@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smack;
+package com.advisoryapps.smack;
 
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smack.filter.ThreadFilter;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smack.filter.ThreadFilter;
 
 /**
  * Simple test to measure server performance.

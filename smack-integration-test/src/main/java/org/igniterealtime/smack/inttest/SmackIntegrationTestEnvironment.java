@@ -16,7 +16,7 @@
  */
 package org.igniterealtime.smack.inttest;
 
-import org.jivesoftware.smack.AbstractXMPPConnection;
+import com.advisoryapps.smack.AbstractXMPPConnection;
 
 public class SmackIntegrationTestEnvironment<C extends AbstractXMPPConnection> {
 

@@ -13,29 +13,29 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx.jingle;
+package com.advisoryapps.smackx.jingle;
 
-import org.jivesoftware.smack.PacketListener;
-import org.jivesoftware.smack.TCPConnection;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.filter.PacketFilter;
-import org.jivesoftware.smack.packet.IQ;
-import org.jivesoftware.smack.packet.Packet;
-import org.jivesoftware.smack.provider.ProviderManager;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.jingle.listeners.JingleSessionListener;
-import org.jivesoftware.smackx.jingle.listeners.JingleSessionRequestListener;
-import org.jivesoftware.smackx.jingle.media.JingleMediaManager;
-import org.jivesoftware.smackx.jingle.media.JingleMediaSession;
-import org.jivesoftware.smackx.jingle.media.PayloadType;
-import org.jivesoftware.smackx.jingle.mediaimpl.jmf.JmfMediaManager;
-import org.jivesoftware.smackx.jingle.mediaimpl.test.TestMediaManager;
-import org.jivesoftware.smackx.jingle.nat.FixedResolver;
-import org.jivesoftware.smackx.jingle.nat.FixedTransportManager;
-import org.jivesoftware.smackx.jingle.nat.RTPBridge;
-import org.jivesoftware.smackx.jingle.nat.TransportCandidate;
-import org.jivesoftware.smackx.jingle.packet.Jingle;
-import org.jivesoftware.smackx.jingle.provider.JingleProvider;
+import com.advisoryapps.smack.PacketListener;
+import com.advisoryapps.smack.TCPConnection;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.filter.PacketFilter;
+import com.advisoryapps.smack.packet.IQ;
+import com.advisoryapps.smack.packet.Packet;
+import com.advisoryapps.smack.provider.ProviderManager;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.jingle.listeners.JingleSessionListener;
+import com.advisoryapps.smackx.jingle.listeners.JingleSessionRequestListener;
+import com.advisoryapps.smackx.jingle.media.JingleMediaManager;
+import com.advisoryapps.smackx.jingle.media.JingleMediaSession;
+import com.advisoryapps.smackx.jingle.media.PayloadType;
+import com.advisoryapps.smackx.jingle.mediaimpl.jmf.JmfMediaManager;
+import com.advisoryapps.smackx.jingle.mediaimpl.test.TestMediaManager;
+import com.advisoryapps.smackx.jingle.nat.FixedResolver;
+import com.advisoryapps.smackx.jingle.nat.FixedTransportManager;
+import com.advisoryapps.smackx.jingle.nat.RTPBridge;
+import com.advisoryapps.smackx.jingle.nat.TransportCandidate;
+import com.advisoryapps.smackx.jingle.packet.Jingle;
+import com.advisoryapps.smackx.jingle.provider.JingleProvider;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

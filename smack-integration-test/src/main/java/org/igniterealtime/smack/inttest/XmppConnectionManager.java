@@ -31,21 +31,21 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.jivesoftware.smack.AbstractXMPPConnection;
-import org.jivesoftware.smack.ConnectionConfiguration;
-import org.jivesoftware.smack.SmackException;
-import org.jivesoftware.smack.SmackException.NoResponseException;
-import org.jivesoftware.smack.SmackException.NotConnectedException;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.XMPPException.XMPPErrorException;
-import org.jivesoftware.smack.tcp.XMPPTCPConnection;
-import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
-import org.jivesoftware.smack.tcp.XmppNioTcpConnection;
-import org.jivesoftware.smack.util.MultiMap;
-import org.jivesoftware.smack.util.StringUtils;
+import com.advisoryapps.smack.AbstractXMPPConnection;
+import com.advisoryapps.smack.ConnectionConfiguration;
+import com.advisoryapps.smack.SmackException;
+import com.advisoryapps.smack.SmackException.NoResponseException;
+import com.advisoryapps.smack.SmackException.NotConnectedException;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.XMPPException.XMPPErrorException;
+import com.advisoryapps.smack.tcp.XMPPTCPConnection;
+import com.advisoryapps.smack.tcp.XMPPTCPConnectionConfiguration;
+import com.advisoryapps.smack.tcp.XmppNioTcpConnection;
+import com.advisoryapps.smack.util.MultiMap;
+import com.advisoryapps.smack.util.StringUtils;
 
-import org.jivesoftware.smackx.admin.ServiceAdministrationManager;
-import org.jivesoftware.smackx.iqregister.AccountManager;
+import com.advisoryapps.smackx.admin.ServiceAdministrationManager;
+import com.advisoryapps.smackx.iqregister.AccountManager;
 
 import org.igniterealtime.smack.inttest.Configuration.AccountRegistration;
 import org.igniterealtime.smack.inttest.SmackIntegrationTestFramework.AccountNum;

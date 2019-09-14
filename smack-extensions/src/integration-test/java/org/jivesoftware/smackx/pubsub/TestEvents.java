@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.pubsub;
+package com.advisoryapps.smackx.pubsub;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -24,12 +24,12 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.packet.XMPPError.Type;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.pubsub.listener.ItemDeleteListener;
-import org.jivesoftware.smackx.pubsub.listener.ItemEventListener;
-import org.jivesoftware.smackx.pubsub.listener.NodeConfigListener;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.packet.XMPPError.Type;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.pubsub.listener.ItemDeleteListener;
+import com.advisoryapps.smackx.pubsub.listener.ItemEventListener;
+import com.advisoryapps.smackx.pubsub.listener.NodeConfigListener;
 
 /**
  *
@@ -209,7 +209,7 @@ public class TestEvents extends SmackTestCase
 	 * 	 <extensionProvider>
 	 *     	<elementName>car</elementName>
 	 *      <namespace>pubsub:test:vehicle</namespace>
-	 *      <className>org.jivesoftware.smackx.pubsub.CarExtensionProvider</className>
+	 *      <className>com.advisoryapps.smackx.pubsub.CarExtensionProvider</className>
 	 *   </extensionProvider>
 	 */
 	/*

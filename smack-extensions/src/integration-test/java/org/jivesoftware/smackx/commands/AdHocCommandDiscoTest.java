@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx.commands;
+package com.advisoryapps.smackx.commands;
 
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smackx.packet.DiscoverItems;
-import org.jivesoftware.smackx.Form;
-import org.jivesoftware.smackx.FormField;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smackx.packet.DiscoverItems;
+import com.advisoryapps.smackx.Form;
+import com.advisoryapps.smackx.FormField;
 
 /**
  * AdHocCommand tests.

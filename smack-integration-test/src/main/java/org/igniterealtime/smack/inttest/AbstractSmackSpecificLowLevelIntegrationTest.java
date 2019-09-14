@@ -19,11 +19,11 @@ package org.igniterealtime.smack.inttest;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.jivesoftware.smack.AbstractXMPPConnection;
-import org.jivesoftware.smack.ConnectionConfiguration;
-import org.jivesoftware.smack.SmackException.NoResponseException;
-import org.jivesoftware.smack.SmackException.NotConnectedException;
-import org.jivesoftware.smack.XMPPException.XMPPErrorException;
+import com.advisoryapps.smack.AbstractXMPPConnection;
+import com.advisoryapps.smack.ConnectionConfiguration;
+import com.advisoryapps.smack.SmackException.NoResponseException;
+import com.advisoryapps.smack.SmackException.NotConnectedException;
+import com.advisoryapps.smack.XMPPException.XMPPErrorException;
 
 public abstract class AbstractSmackSpecificLowLevelIntegrationTest<C extends AbstractXMPPConnection>
         extends AbstractSmackLowLevelIntegrationTest {

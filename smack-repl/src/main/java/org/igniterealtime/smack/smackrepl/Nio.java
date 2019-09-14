@@ -24,16 +24,16 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.logging.Logger;
 
-import org.jivesoftware.smack.ConnectionConfiguration.SecurityMode;
-import org.jivesoftware.smack.SmackException;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.compression.XMPPInputOutputStream;
-import org.jivesoftware.smack.compression.XMPPInputOutputStream.FlushMethod;
-import org.jivesoftware.smack.debugger.ConsoleDebugger;
-import org.jivesoftware.smack.debugger.SmackDebuggerFactory;
-import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
-import org.jivesoftware.smack.tcp.XmppNioTcpConnection;
+import com.advisoryapps.smack.ConnectionConfiguration.SecurityMode;
+import com.advisoryapps.smack.SmackException;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.compression.XMPPInputOutputStream;
+import com.advisoryapps.smack.compression.XMPPInputOutputStream.FlushMethod;
+import com.advisoryapps.smack.debugger.ConsoleDebugger;
+import com.advisoryapps.smack.debugger.SmackDebuggerFactory;
+import com.advisoryapps.smack.packet.Message;
+import com.advisoryapps.smack.tcp.XMPPTCPConnectionConfiguration;
+import com.advisoryapps.smack.tcp.XmppNioTcpConnection;
 
 import org.jxmpp.util.XmppDateTime;
 

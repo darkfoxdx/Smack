@@ -47,18 +47,18 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.jivesoftware.smack.AbstractXMPPConnection;
-import org.jivesoftware.smack.ConnectionConfiguration.SecurityMode;
-import org.jivesoftware.smack.SmackConfiguration;
-import org.jivesoftware.smack.SmackException;
-import org.jivesoftware.smack.SmackException.NoResponseException;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.tcp.XMPPTCPConnection;
-import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
-import org.jivesoftware.smack.util.StringUtils;
+import com.advisoryapps.smack.AbstractXMPPConnection;
+import com.advisoryapps.smack.ConnectionConfiguration.SecurityMode;
+import com.advisoryapps.smack.SmackConfiguration;
+import com.advisoryapps.smack.SmackException;
+import com.advisoryapps.smack.SmackException.NoResponseException;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.tcp.XMPPTCPConnection;
+import com.advisoryapps.smack.tcp.XMPPTCPConnectionConfiguration;
+import com.advisoryapps.smack.util.StringUtils;
 
-import org.jivesoftware.smackx.debugger.EnhancedDebuggerWindow;
-import org.jivesoftware.smackx.iqregister.AccountManager;
+import com.advisoryapps.smackx.debugger.EnhancedDebuggerWindow;
+import com.advisoryapps.smackx.iqregister.AccountManager;
 
 import org.igniterealtime.smack.inttest.Configuration.AccountRegistration;
 import org.junit.AfterClass;
@@ -162,7 +162,7 @@ public class SmackIntegrationTestFramework<DC extends AbstractXMPPConnection> {
             // JUL Debugger will not print any information until configured to print log messages of
             // level FINE
             // TODO configure JUL for log?
-            SmackConfiguration.addDisabledSmackClass("org.jivesoftware.smack.debugger.JulDebugger");
+            SmackConfiguration.addDisabledSmackClass("com.advisoryapps.smack.debugger.JulDebugger");
             SmackConfiguration.DEBUG = true;
         }
         if (config.replyTimeout > 0) {
@@ -175,7 +175,7 @@ public class SmackIntegrationTestFramework<DC extends AbstractXMPPConnection> {
 
         String[] testPackages;
         if (config.testPackages == null || config.testPackages.isEmpty()) {
-            testPackages = new String[] { "org.jivesoftware.smackx", "org.jivesoftware.smack" };
+            testPackages = new String[] { "com.advisoryapps.smackx", "com.advisoryapps.smack" };
         }
         else {
             testPackages = config.testPackages.toArray(new String[config.testPackages.size()]);
@@ -248,7 +248,7 @@ public class SmackIntegrationTestFramework<DC extends AbstractXMPPConnection> {
             // that the "compile project(path: ":smack-omemo", configuration: "testRuntime")" is not respected,
             // which leads to
             // Exception in thread "main" java.lang.NoClassDefFoundError: org/jivesoftware/smack/test/util/FileTestUtil
-            //   at org.jivesoftware.smackx.ox.OXSecretKeyBackupIntegrationTest.<clinit>(OXSecretKeyBackupIntegrationTest.java:66)
+            //   at com.advisoryapps.smackx.ox.OXSecretKeyBackupIntegrationTest.<clinit>(OXSecretKeyBackupIntegrationTest.java:66)
             // See
             // - https://github.com/eclipse/buildship/issues/354 (Remove test dependencies from runtime classpath)
             // - https://bugs.eclipse.org/bugs/show_bug.cgi?id=482315 (Runtime classpath includes test dependencies)

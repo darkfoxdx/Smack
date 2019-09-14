@@ -44,9 +44,9 @@
   - SUCH DAMAGE.
  --%>
 <%@ page import="java.util.*,
-                org.jivesoftware.smack.*,
-                org.jivesoftware.smack.packet.*,
-                org.jivesoftware.smack.util.*"%>
+                com.advisoryapps.smack.*,
+                com.advisoryapps.smack.packet.*,
+                com.advisoryapps.smack.util.*"%>
 <%@ include file="global.jsp" %>
 <%
     // If we don't have a valid connection then proceed to login
@@ -171,7 +171,7 @@
               <tr> 
                 <td> <TABLE cellSpacing=0 borderColorDark=#E0E0E0 cellPadding=0 width=100% align=center borderColorLight=#000000 border=1>
                     <tr> 
-                      <td bgcolor="#AAAAAA" colspan="5" class=text id=white height=16>Roster´s presences</td>
+                      <td bgcolor="#AAAAAA" colspan="5" class=text id=white height=16>Rosterï¿½s presences</td>
                     </tr>
                     <TR vAlign=center align=middle bgcolor="#AAAAAA"> 
                       <TD class=text id=white height=16>User</TD>

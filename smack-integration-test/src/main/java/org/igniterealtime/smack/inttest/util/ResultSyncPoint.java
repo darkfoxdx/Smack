@@ -18,7 +18,7 @@ package org.igniterealtime.smack.inttest.util;
 
 import java.util.concurrent.TimeoutException;
 
-import org.jivesoftware.smack.util.Objects;
+import com.advisoryapps.smack.util.Objects;
 
 public class ResultSyncPoint<R, E extends Exception> {
 

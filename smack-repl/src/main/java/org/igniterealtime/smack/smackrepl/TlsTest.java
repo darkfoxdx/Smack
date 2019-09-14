@@ -26,13 +26,13 @@ import java.security.NoSuchAlgorithmException;
 
 import javax.net.ssl.SSLContext;
 
-import org.jivesoftware.smack.ConnectionConfiguration.SecurityMode;
-import org.jivesoftware.smack.SmackException;
-import org.jivesoftware.smack.SmackException.SecurityRequiredByClientException;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.tcp.XMPPTCPConnection;
-import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
-import org.jivesoftware.smack.util.StringUtils;
+import com.advisoryapps.smack.ConnectionConfiguration.SecurityMode;
+import com.advisoryapps.smack.SmackException;
+import com.advisoryapps.smack.SmackException.SecurityRequiredByClientException;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.tcp.XMPPTCPConnection;
+import com.advisoryapps.smack.tcp.XMPPTCPConnectionConfiguration;
+import com.advisoryapps.smack.util.StringUtils;
 
 import eu.geekplace.javapinning.java7.Java7Pinning;
 import org.jxmpp.jid.EntityBareJid;

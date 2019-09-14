@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smack;
+package com.advisoryapps.smack;
 
-import org.jivesoftware.smack.filter.MessageTypeFilter;
-import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.packet.Presence;
-import org.jivesoftware.smack.test.SmackTestCase;
+import com.advisoryapps.smack.filter.MessageTypeFilter;
+import com.advisoryapps.smack.packet.Message;
+import com.advisoryapps.smack.packet.Presence;
+import com.advisoryapps.smack.test.SmackTestCase;
 
 /**
  * Tests sending messages to other clients.

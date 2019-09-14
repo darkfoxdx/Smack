@@ -326,19 +326,19 @@ This is the format for a provider file which can be parsed by the
 	<iqProvider>
 		<elementName>query</elementName>
 		<namespace>jabber:iq:time</namespace>
-		<className>org.jivesoftware.smack.packet.Time</className>
+		<className>com.advisoryapps.smack.packet.Time</className>
 	</iqProvider>
 
 	<iqProvider>
 		<elementName>query</elementName>
 		<namespace>http://jabber.org/protocol/disco#items</namespace>
-		<className>org.jivesoftware.smackx.provider.DiscoverItemsProvider</className>
+		<className>com.advisoryapps.smackx.provider.DiscoverItemsProvider</className>
 	</iqProvider>
 
 	<extensionProvider>
 		<elementName>subscription</elementName>
 		<namespace>http://jabber.org/protocol/pubsub</namespace>
-		<className>org.jivesoftware.smackx.pubsub.provider.SubscriptionProvider</className>
+		<className>SubscriptionProvider</className>
 	</extensionProvider>
 	</smackProviders>
 

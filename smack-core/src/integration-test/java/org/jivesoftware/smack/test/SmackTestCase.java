@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smack.test;
+package com.advisoryapps.smack.test;
 
 import java.io.InputStream;
 import java.net.URL;
@@ -28,12 +28,12 @@ import javax.net.SocketFactory;
 
 import junit.framework.TestCase;
 
-import org.jivesoftware.smack.ConnectionConfiguration;
-import org.jivesoftware.smack.TCPConnection;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.util.ConnectionUtils;
-import org.jivesoftware.smack.xml.XmlPullParserFactory;
-import org.jivesoftware.smack.xml.XmlPullParser;
+import com.advisoryapps.smack.ConnectionConfiguration;
+import com.advisoryapps.smack.TCPConnection;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.util.ConnectionUtils;
+import com.advisoryapps.smack.xml.XmlPullParserFactory;
+import com.advisoryapps.smack.xml.XmlPullParser;
 
 /**
  * Base class for all the test cases which provides a pre-configured execution context. This

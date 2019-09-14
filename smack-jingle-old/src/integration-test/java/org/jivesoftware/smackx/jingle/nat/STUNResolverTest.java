@@ -12,23 +12,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.jingle.nat;
+package com.advisoryapps.smackx.jingle.nat;
 
 import de.javawi.jstun.test.demo.StunServer;
 import de.javawi.jstun.test.demo.ice.Candidate;
 import de.javawi.jstun.test.demo.ice.ICENegociator;
 import de.javawi.jstun.util.UtilityException;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.jingle.JingleManager;
-import org.jivesoftware.smackx.jingle.JingleSession;
-import org.jivesoftware.smackx.jingle.JingleSessionRequest;
-import org.jivesoftware.smackx.jingle.listeners.JingleSessionListener;
-import org.jivesoftware.smackx.jingle.listeners.JingleSessionRequestListener;
-import org.jivesoftware.smackx.jingle.media.JingleMediaManager;
-import org.jivesoftware.smackx.jingle.media.PayloadType;
-import org.jivesoftware.smackx.jingle.mediaimpl.test.TestMediaManager;
-import org.jivesoftware.smackx.jingle.nat.STUNResolver.STUNService;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.jingle.JingleManager;
+import com.advisoryapps.smackx.jingle.JingleSession;
+import com.advisoryapps.smackx.jingle.JingleSessionRequest;
+import com.advisoryapps.smackx.jingle.listeners.JingleSessionListener;
+import com.advisoryapps.smackx.jingle.listeners.JingleSessionRequestListener;
+import com.advisoryapps.smackx.jingle.media.JingleMediaManager;
+import com.advisoryapps.smackx.jingle.media.PayloadType;
+import com.advisoryapps.smackx.jingle.mediaimpl.test.TestMediaManager;
+import com.advisoryapps.smackx.jingle.nat.STUNResolver.STUNService;
 
 import java.net.NetworkInterface;
 import java.net.SocketException;

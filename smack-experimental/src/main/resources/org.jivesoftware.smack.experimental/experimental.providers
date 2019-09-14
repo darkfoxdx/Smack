@@ -6,329 +6,329 @@
     <iqProvider>
         <elementName>req</elementName>
         <namespace>urn:xmpp:http</namespace>
-        <className>org.jivesoftware.smackx.hoxt.provider.HttpOverXmppReqProvider</className>
+        <className>HttpOverXmppReqProvider</className>
     </iqProvider>
     <iqProvider>
         <elementName>resp</elementName>
         <namespace>urn:xmpp:http</namespace>
-        <className>org.jivesoftware.smackx.hoxt.provider.HttpOverXmppRespProvider</className>
+        <className>HttpOverXmppRespProvider</className>
     </iqProvider>
     <extensionProvider>
         <elementName>chunk</elementName>
         <namespace>urn:xmpp:http</namespace>
-        <className>org.jivesoftware.smackx.hoxt.provider.Base64BinaryChunkProvider</className>
+        <className>Base64BinaryChunkProvider</className>
     </extensionProvider>
 
     <!-- XEP-0280 Message Carbons -->
     <extensionProvider>
         <elementName>sent</elementName>
         <namespace>urn:xmpp:carbons:2</namespace>
-        <className>org.jivesoftware.smackx.carbons.provider.CarbonManagerProvider</className>
+        <className>CarbonManagerProvider</className>
     </extensionProvider>
     <extensionProvider>
         <elementName>received</elementName>
         <namespace>urn:xmpp:carbons:2</namespace>
-        <className>org.jivesoftware.smackx.carbons.provider.CarbonManagerProvider</className>
+        <className>CarbonManagerProvider</className>
     </extensionProvider>
 
     <!-- XEP-0352 Client State Indication -->
     <streamFeatureProvider>
         <elementName>csi</elementName>
         <namespace>urn:xmpp:csi:0</namespace>
-        <className>org.jivesoftware.smackx.csi.provider.ClientStateIndicationFeatureProvider</className>
+        <className>ClientStateIndicationFeatureProvider</className>
     </streamFeatureProvider>
 
     <!-- XEP-0335 JSON Containers -->
     <extensionProvider>
         <elementName>json</elementName>
         <namespace>urn:xmpp:json:0</namespace>
-        <className>org.jivesoftware.smackx.json.provider.JsonExtensionProvider</className>
+        <className>JsonExtensionProvider</className>
     </extensionProvider>
 
     <!-- GCM JSON payload -->
     <extensionProvider>
         <elementName>gcm</elementName>
         <namespace>google:mobile:data</namespace>
-        <className>org.jivesoftware.smackx.gcm.provider.GcmExtensionProvider</className>
+        <className>GcmExtensionProvider</className>
     </extensionProvider>
     
     <!-- XEP-xxxx: Multi-User Chat Light -->
     <iqProvider>
         <elementName>query</elementName>
         <namespace>urn:xmpp:muclight:0#info</namespace>
-        <className>org.jivesoftware.smackx.muclight.provider.MUCLightInfoIQProvider</className>
+        <className>MUCLightInfoIQProvider</className>
     </iqProvider>
     <extensionProvider>
         <elementName>x</elementName>
         <namespace>urn:xmpp:muclight:0#affiliations</namespace>
-        <className>org.jivesoftware.smackx.muclight.provider.MUCLightAffiliationsChangeProvider</className>
+        <className>MUCLightAffiliationsChangeProvider</className>
     </extensionProvider>
     <extensionProvider>
         <elementName>x</elementName>
         <namespace>urn:xmpp:muclight:0#configuration</namespace>
-        <className>org.jivesoftware.smackx.muclight.provider.MUCLightConfigurationsChangeProvider</className>
+        <className>MUCLightConfigurationsChangeProvider</className>
     </extensionProvider>
     <iqProvider>
         <elementName>query</elementName>
         <namespace>urn:xmpp:muclight:0#configuration</namespace>
-        <className>org.jivesoftware.smackx.muclight.provider.MUCLightConfigurationIQProvider</className>
+        <className>MUCLightConfigurationIQProvider</className>
     </iqProvider>
     <iqProvider>
         <elementName>query</elementName>
         <namespace>urn:xmpp:muclight:0#affiliations</namespace>
-        <className>org.jivesoftware.smackx.muclight.provider.MUCLightAffiliationsIQProvider</className>
+        <className>MUCLightAffiliationsIQProvider</className>
     </iqProvider>
     <iqProvider>
         <elementName>query</elementName>
         <namespace>urn:xmpp:muclight:0#blocking</namespace>
-        <className>org.jivesoftware.smackx.muclight.provider.MUCLightBlockingIQProvider</className>
+        <className>MUCLightBlockingIQProvider</className>
     </iqProvider>
 
 	<!-- XEP-0313 Message Archive Management -->
     <iqProvider>
         <elementName>prefs</elementName>
         <namespace>urn:xmpp:mam:1</namespace>
-        <className>org.jivesoftware.smackx.mam.provider.MamPrefsIQProvider</className>
+        <className>MamPrefsIQProvider</className>
     </iqProvider>
     <iqProvider>
         <elementName>query</elementName>
         <namespace>urn:xmpp:mam:1</namespace>
-        <className>org.jivesoftware.smackx.mam.provider.MamQueryIQProvider</className>
+        <className>MamQueryIQProvider</className>
     </iqProvider>
     <iqProvider>
         <elementName>fin</elementName>
         <namespace>urn:xmpp:mam:1</namespace>
-        <className>org.jivesoftware.smackx.mam.provider.MamFinIQProvider</className>
+        <className>MamFinIQProvider</className>
     </iqProvider>
     <extensionProvider>
         <elementName>result</elementName>
         <namespace>urn:xmpp:mam:1</namespace>
-        <className>org.jivesoftware.smackx.mam.provider.MamResultProvider</className>
+        <className>MamResultProvider</className>
     </extensionProvider>
 
     <!-- XEP-0347: Internet of Things - Discovery -->
     <iqProvider>
       <elementName>register</elementName>
       <namespace>urn:xmpp:iot:discovery</namespace>
-      <className>org.jivesoftware.smackx.iot.discovery.provider.IoTRegisterProvider</className>
+      <className>IoTRegisterProvider</className>
     </iqProvider>
     <iqProvider>
       <elementName>claimed</elementName>
       <namespace>urn:xmpp:iot:discovery</namespace>
-      <className>org.jivesoftware.smackx.iot.discovery.provider.IoTClaimedProvider</className>
+      <className>IoTClaimedProvider</className>
     </iqProvider>
     <iqProvider>
       <elementName>disown</elementName>
       <namespace>urn:xmpp:iot:discovery</namespace>
-      <className>org.jivesoftware.smackx.iot.discovery.provider.IoTDisownProvider</className>
+      <className>IoTDisownProvider</className>
     </iqProvider>
     <iqProvider>
       <elementName>disowned</elementName>
       <namespace>urn:xmpp:iot:discovery</namespace>
-      <className>org.jivesoftware.smackx.iot.discovery.provider.IoTDisownedProvider</className>
+      <className>IoTDisownedProvider</className>
     </iqProvider>
     <iqProvider>
       <elementName>remove</elementName>
       <namespace>urn:xmpp:iot:discovery</namespace>
-      <className>org.jivesoftware.smackx.iot.discovery.provider.IoTRemoveProvider</className>
+      <className>IoTRemoveProvider</className>
     </iqProvider>
     <iqProvider>
       <elementName>disown</elementName>
       <namespace>urn:xmpp:iot:discovery</namespace>
-      <className>org.jivesoftware.smackx.iot.discovery.provider.IoTRemovedProvider</className>
+      <className>IoTRemovedProvider</className>
     </iqProvider>
     <iqProvider>
       <elementName>unregister</elementName>
       <namespace>urn:xmpp:iot:discovery</namespace>
-      <className>org.jivesoftware.smackx.iot.discovery.provider.IoTUnregisterProvider</className>
+      <className>IoTUnregisterProvider</className>
     </iqProvider>
 
     <!-- XEP-0324: Internet of Things - Provisioning -->
    <iqProvider>
       <elementName>isFriend</elementName>
       <namespace>urn:xmpp:iot:provisioning</namespace>
-      <className>org.jivesoftware.smackx.iot.provisioning.provider.IoTIsFriendProvider</className>
+      <className>IoTIsFriendProvider</className>
     </iqProvider>
    <iqProvider>
       <elementName>isFriendResponse</elementName>
       <namespace>urn:xmpp:iot:provisioning</namespace>
-      <className>org.jivesoftware.smackx.iot.provisioning.provider.IoTIsFriendResponseProvider</className>
+      <className>IoTIsFriendResponseProvider</className>
     </iqProvider>
    <iqProvider>
       <elementName>clearCache</elementName>
       <namespace>urn:xmpp:iot:provisioning</namespace>
-      <className>org.jivesoftware.smackx.iot.provisioning.provider.ClearCacheProvider</className>
+      <className>ClearCacheProvider</className>
     </iqProvider>
    <iqProvider>
       <elementName>clearCacheResponse</elementName>
       <namespace>urn:xmpp:iot:provisioning</namespace>
-      <className>org.jivesoftware.smackx.iot.provisioning.provider.ClearCacheResponseProvider</className>
+      <className>ClearCacheResponseProvider</className>
     </iqProvider>
     <extensionProvider>
         <elementName>friend</elementName>
         <namespace>urn:xmpp:iot:provisioning</namespace>
-        <className>org.jivesoftware.smackx.iot.provisioning.provider.FriendProvider</className>
+        <className>FriendProvider</className>
     </extensionProvider>
     <extensionProvider>
         <elementName>unfriend</elementName>
         <namespace>urn:xmpp:iot:provisioning</namespace>
-        <className>org.jivesoftware.smackx.iot.provisioning.provider.UnfriendProvider</className>
+        <className>UnfriendProvider</className>
     </extensionProvider>
 
     <!-- XEP-0323: Internet of Things - Data -->
     <iqProvider>
       <elementName>req</elementName>
       <namespace>urn:xmpp:iot:sensordata</namespace>
-      <className>org.jivesoftware.smackx.iot.data.provider.IoTDataRequestProvider</className>
+      <className>IoTDataRequestProvider</className>
     </iqProvider>
     <iqProvider>
       <elementName>accepted</elementName>
       <namespace>urn:xmpp:iot:sensordata</namespace>
-      <className>org.jivesoftware.smackx.iot.data.provider.IoTDataReadOutAcceptedProvider</className>
+      <className>IoTDataReadOutAcceptedProvider</className>
     </iqProvider>
     <extensionProvider>
       <elementName>fields</elementName>
       <namespace>urn:xmpp:iot:sensordata</namespace>
-      <className>org.jivesoftware.smackx.iot.data.provider.IoTFieldsExtensionProvider</className>
+      <className>IoTFieldsExtensionProvider</className>
     </extensionProvider>
 
     <!-- XEP-0325: Internet of Things - Control -->
     <iqProvider>
       <elementName>set</elementName>
       <namespace>urn:xmpp:iot:control</namespace>
-      <className>org.jivesoftware.smackx.iot.control.provider.IoTSetRequestProvider</className>
+      <className>IoTSetRequestProvider</className>
     </iqProvider>
     <iqProvider>
       <elementName>setResponse</elementName>
       <namespace>urn:xmpp:iot:control</namespace>
-      <className>org.jivesoftware.smackx.iot.control.provider.IoTSetResponseProvider</className>
+      <className>IoTSetResponseProvider</className>
     </iqProvider>
 
     <!-- XEP-0357 Push Notifications -->
     <extensionProvider>
         <elementName>pubsub</elementName>
         <namespace>http://jabber.org/protocol/pubsub</namespace>
-        <className>org.jivesoftware.smackx.push_notifications.provider.RemoteDisablingProvider</className>
+        <className>RemoteDisablingProvider</className>
     </extensionProvider>
 
     <!-- XEP-0359: Stable and Unique Stanza IDs -->
     <extensionProvider>
         <elementName>stanza-id</elementName>
         <namespace>urn:xmpp:sid:0</namespace>
-        <className>org.jivesoftware.smackx.sid.provider.StanzaIdProvider</className>
+        <className>StanzaIdProvider</className>
     </extensionProvider>
     <extensionProvider>
         <elementName>origin-id</elementName>
         <namespace>urn:xmpp:sid:0</namespace>
-        <className>org.jivesoftware.smackx.sid.provider.OriginIdProvider</className>
+        <className>OriginIdProvider</className>
     </extensionProvider>
 
     <!-- XEP-0333: Chat Markers -->
     <extensionProvider>
       <elementName>markable</elementName>
       <namespace>urn:xmpp:chat-markers:0</namespace>
-      <className>org.jivesoftware.smackx.chat_markers.provider.MarkableProvider</className>
+      <className>MarkableProvider</className>
     </extensionProvider>
     <extensionProvider>
       <elementName>received</elementName>
       <namespace>urn:xmpp:chat-markers:0</namespace>
-      <className>org.jivesoftware.smackx.chat_markers.provider.ReceivedProvider</className>
+      <className>ReceivedProvider</className>
     </extensionProvider>
     <extensionProvider>
       <elementName>displayed</elementName>
       <namespace>urn:xmpp:chat-markers:0</namespace>
-      <className>org.jivesoftware.smackx.chat_markers.provider.DisplayedProvider</className>
+      <className>DisplayedProvider</className>
     </extensionProvider>
     <extensionProvider>
       <elementName>acknowledged</elementName>
       <namespace>urn:xmpp:chat-markers:0</namespace>
-      <className>org.jivesoftware.smackx.chat_markers.provider.AcknowledgedProvider</className>
+      <className>AcknowledgedProvider</className>
     </extensionProvider>
 
     <!-- XEP-0334: Message Processing Hints -->
     <extensionProvider>
       <elementName>no-copy</elementName>
       <namespace>urn:xmpp:hints</namespace>
-      <className>org.jivesoftware.smackx.hints.provider.NoCopyHintProvider</className>
+      <className>NoCopyHintProvider</className>
     </extensionProvider>
     <extensionProvider>
       <elementName>no-permanent-store</elementName>
       <namespace>urn:xmpp:hints</namespace>
-      <className>org.jivesoftware.smackx.hints.provider.NoPermanentStoreHintProvider</className>
+      <className>NoPermanentStoreHintProvider</className>
     </extensionProvider>
     <extensionProvider>
       <elementName>no-store</elementName>
       <namespace>urn:xmpp:hints</namespace>
-      <className>org.jivesoftware.smackx.hints.provider.NoStoreHintProvider</className>
+      <className>NoStoreHintProvider</className>
     </extensionProvider>
     <extensionProvider>
       <elementName>store</elementName>
       <namespace>urn:xmpp:hints</namespace>
-      <className>org.jivesoftware.smackx.hints.provider.StoreHintProvider</className>
+      <className>StoreHintProvider</className>
     </extensionProvider>
 
     <!-- XEP-0363: HTTP File Upload -->
     <iqProvider>
       <elementName>slot</elementName>
       <namespace>urn:xmpp:http:upload:0</namespace>
-      <className>org.jivesoftware.smackx.httpfileupload.provider.SlotProvider</className>
+      <className>SlotProvider</className>
     </iqProvider>
     <extensionProvider>
       <elementName>file-too-large</elementName>
       <namespace>urn:xmpp:http:upload:0</namespace>
-      <className>org.jivesoftware.smackx.httpfileupload.provider.FileTooLargeErrorProvider</className>
+      <className>FileTooLargeErrorProvider</className>
     </extensionProvider>
     <iqProvider>
       <elementName>slot</elementName>
       <namespace>urn:xmpp:http:upload</namespace>
-      <className>org.jivesoftware.smackx.httpfileupload.provider.SlotProvider</className>
+      <className>SlotProvider</className>
     </iqProvider>
     <extensionProvider>
       <elementName>file-too-large</elementName>
       <namespace>urn:xmpp:http:upload</namespace>
-      <className>org.jivesoftware.smackx.httpfileupload.provider.FileTooLargeErrorProvider</className>
+      <className>FileTooLargeErrorProvider</className>
     </extensionProvider>
 
     <!-- XEP-0372: References -->
     <extensionProvider>
       <elementName>reference</elementName>
       <namespace>urn:xmpp:reference:0</namespace>
-      <className>org.jivesoftware.smackx.reference.provider.ReferenceProvider</className>
+      <className>ReferenceProvider</className>
     </extensionProvider>
 
     <!-- XEP-0380: Explicit Message Encryption -->
     <extensionProvider>
       <elementName>encryption</elementName>
       <namespace>urn:xmpp:eme:0</namespace>
-      <className>org.jivesoftware.smackx.eme.provider.ExplicitMessageEncryptionProvider</className>
+      <className>ExplicitMessageEncryptionProvider</className>
     </extensionProvider>
 
     <!-- XEP-0382: Spoiler Messages -->
     <extensionProvider>
       <elementName>spoiler</elementName>
       <namespace>urn:xmpp:spoiler:0</namespace>
-      <className>org.jivesoftware.smackx.spoiler.provider.SpoilerProvider</className>
+      <className>SpoilerProvider</className>
     </extensionProvider>
 
     <!-- XEP-0394: Message Markup -->
     <extensionProvider>
       <elementName>markup</elementName>
       <namespace>urn:xmpp:markup:0</namespace>
-      <className>org.jivesoftware.smackx.message_markup.provider.MarkupElementProvider</className>
+      <className>MarkupElementProvider</className>
     </extensionProvider>
 
     <!-- XEP-0418: DNS Queries over XMPP (DoX) -->
     <iqProvider>
       <elementName>dns</elementName>
       <namespace>urn:xmpp:dox:0</namespace>
-      <className>org.jivesoftware.smackx.dox.provider.DnsIqProvider</className>
+      <className>DnsIqProvider</className>
     </iqProvider>
 
     <!-- XEP-0328: JID Prep -->
     <iqProvider>
       <elementName>jid</elementName>
       <namespace>urn:xmpp:jidprep:0</namespace>
-      <className>org.jivesoftware.smackx.jid_prep.provider.JidPrepIqProvider</className>
+      <className>JidPrepIqProvider</className>
     </iqProvider>
 
 </smackProviders>

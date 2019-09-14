@@ -22,7 +22,7 @@ import static org.junit.Assert.assertTrue;
 import java.lang.reflect.Method;
 import java.util.List;
 
-import org.jivesoftware.smack.AbstractXMPPConnection;
+import com.advisoryapps.smack.AbstractXMPPConnection;
 
 import org.junit.Test;
 

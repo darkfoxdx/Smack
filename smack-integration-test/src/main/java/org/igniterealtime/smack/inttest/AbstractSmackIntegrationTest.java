@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.jivesoftware.smack.XMPPConnection;
+import com.advisoryapps.smack.XMPPConnection;
 
 public abstract class AbstractSmackIntegrationTest extends AbstractSmackIntTest {
 

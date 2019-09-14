@@ -1,5 +1,5 @@
 <smack>
     <startupClasses>
-        <className>org.jivesoftware.smack.roster.Roster</className>
+        <className>com.advisoryapps.smack.roster.Roster</className>
     </startupClasses>
 </smack>

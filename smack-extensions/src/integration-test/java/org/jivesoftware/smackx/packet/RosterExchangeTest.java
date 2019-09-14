@@ -14,15 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.packet;
+package com.advisoryapps.smackx.packet;
 
 import java.util.Iterator;
 
-import org.jivesoftware.smack.*;
-import org.jivesoftware.smack.filter.*;
-import org.jivesoftware.smack.packet.*;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.*;
+import com.advisoryapps.smack.*;
+import com.advisoryapps.smack.filter.*;
+import com.advisoryapps.smack.packet.*;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.*;
 
 /**
  *

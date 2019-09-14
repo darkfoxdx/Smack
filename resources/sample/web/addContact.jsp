@@ -44,9 +44,9 @@
   - SUCH DAMAGE.
  --%>
 <%@ page import="java.util.*,
-                org.jivesoftware.smack.*,
-                org.jivesoftware.smack.packet.*,
-                org.jivesoftware.smack.util.*"%>
+                com.advisoryapps.smack.*,
+                com.advisoryapps.smack.packet.*,
+                com.advisoryapps.smack.util.*"%>
 <%@ include file="global.jsp" %>
 <%
     // If we don't have a valid connection then proceed to login

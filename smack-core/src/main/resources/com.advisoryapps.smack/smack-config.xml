@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- Smack configuration file. -->
+<smack>
+    <!-- Classes that will be loaded when Smack starts -->
+    <startupClasses>
+        <className>com.advisoryapps.smack.initializer.VmArgInitializer</className>
+        <className>com.advisoryapps.smack.ReconnectionManager</className>
+    </startupClasses>
+
+    <optionalStartupClasses>
+        <className>JavaxResolver</className>
+        <className>MiniDnsResolver</className>
+        <className>DNSJavaResolver</className>
+        <className>ExtensionsInitializer</className>
+        <className>ExperimentalInitializer</className>
+        <className>LegacyInitializer</className>
+        <className>TCPInitializer</className>
+        <className>SASLJavaXSmackInitializer</className>
+        <className>SASLProvidedSmackInitializer</className>
+        <className>AndroidSmackInitializer</className>
+        <className>Java7SmackInitializer</className>
+        <className>SmackImInitializer</className>
+        <className>OmemoInitializer</className>
+        <className>OpenPgpInitializer</className>
+    </optionalStartupClasses>
+</smack>

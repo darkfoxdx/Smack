@@ -12,17 +12,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.jingle.provider;
+package com.advisoryapps.smackx.jingle.provider;
 
-import org.jivesoftware.smack.StanzaCollector;
-import org.jivesoftware.smack.SmackConfiguration;
-import org.jivesoftware.smack.filter.PacketFilter;
-import org.jivesoftware.smack.filter.StanzaTypeFilter;
-import org.jivesoftware.smack.packet.IQ;
-import org.jivesoftware.smack.provider.IQProvider;
-import org.jivesoftware.smack.provider.ProviderManager;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.jingle.packet.Jingle;
+import com.advisoryapps.smack.StanzaCollector;
+import com.advisoryapps.smack.SmackConfiguration;
+import com.advisoryapps.smack.filter.PacketFilter;
+import com.advisoryapps.smack.filter.StanzaTypeFilter;
+import com.advisoryapps.smack.packet.IQ;
+import com.advisoryapps.smack.provider.IQProvider;
+import com.advisoryapps.smack.provider.ProviderManager;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.jingle.packet.Jingle;
 
 public class JingleProviderTest extends SmackTestCase {
 

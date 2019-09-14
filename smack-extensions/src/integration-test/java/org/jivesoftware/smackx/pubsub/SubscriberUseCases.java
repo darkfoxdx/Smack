@@ -14,9 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.pubsub;
+package com.advisoryapps.smackx.pubsub;
 
-import static org.jivesoftware.smack.test.util.XmlUnitUtils.assertXmlSimilar;
+import static com.advisoryapps.smack.test.util.XmlUnitUtils.assertXmlSimilar;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -25,9 +25,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smackx.FormField;
-import org.jivesoftware.smackx.pubsub.test.SingleUserTestCase;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smackx.FormField;
+import com.advisoryapps.smackx.pubsub.test.SingleUserTestCase;
 
 /**
  *

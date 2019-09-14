@@ -34,7 +34,7 @@ Smack has an initialization process that involves 2 phases.
   * Initializing startup classes - Initializing any classes meant to be active at startup by instantiating the class, and then calling the _initialize_ method on that class if it extends **SmackInitializer**. If it does not extend this interface, then initialization will have to take place in a static block of code which is automatically executed when the class is loaded.
 
 Initialization is accomplished via a configuration file. By default, Smack
-will load the one embedded in the Smack jar at _org.jivesoftware.smack/smack-
+will load the one embedded in the Smack jar at _com.advisoryapps.smack/smack-
 config.xml_. This particular configuration contains a list of initializer
 classes to load. All manager type classes that need to be initialized are
 contained in this list of initializers.
@@ -91,7 +91,7 @@ and the current presence status of each entry.
 Reading and Writing Stanzas
 
 Each message to the XMPP server from a client is called a packet and is sent
-as XML. The `org.jivesoftware.smack.packet` package contains classes that
+as XML. The `com.advisoryapps.smack.packet` package contains classes that
 encapsulate the three different basic packet types allowed by XMPP (message,
 presence, and IQ). Classes such as `Chat` and `GroupChat` provide higher-level
 constructs that manage creating and sending packets automatically, but you can

@@ -22,14 +22,14 @@ package org.igniterealtime.smack.smackrepl;
 
 import java.io.IOException;
 
-import org.jivesoftware.smack.SmackConfiguration;
-import org.jivesoftware.smack.SmackException;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.debugger.ConsoleDebugger;
-import org.jivesoftware.smack.tcp.XMPPTCPConnection;
-import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
-import org.jivesoftware.smackx.dox.DnsOverXmppManager;
-import org.jivesoftware.smackx.dox.resolver.minidns.DnsOverXmppMiniDnsResolver;
+import com.advisoryapps.smack.SmackConfiguration;
+import com.advisoryapps.smack.SmackException;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.debugger.ConsoleDebugger;
+import com.advisoryapps.smack.tcp.XMPPTCPConnection;
+import com.advisoryapps.smack.tcp.XMPPTCPConnectionConfiguration;
+import com.advisoryapps.smackx.dox.DnsOverXmppManager;
+import com.advisoryapps.smackx.dox.resolver.minidns.DnsOverXmppMiniDnsResolver;
 
 import org.jxmpp.jid.Jid;
 import org.jxmpp.jid.impl.JidCreate;

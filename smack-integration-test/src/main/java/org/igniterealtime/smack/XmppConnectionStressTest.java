@@ -24,21 +24,21 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
-import org.jivesoftware.smack.SmackException.NotConnectedException;
-import org.jivesoftware.smack.StanzaListener;
-import org.jivesoftware.smack.XMPPConnection;
-import org.jivesoftware.smack.filter.AndFilter;
-import org.jivesoftware.smack.filter.MessageTypeFilter;
-import org.jivesoftware.smack.filter.StanzaExtensionFilter;
-import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.packet.Stanza;
-import org.jivesoftware.smack.util.Async;
-import org.jivesoftware.smack.util.BooleansUtils;
-import org.jivesoftware.smack.util.MultiMap;
-import org.jivesoftware.smack.util.StringUtils;
+import com.advisoryapps.smack.SmackException.NotConnectedException;
+import com.advisoryapps.smack.StanzaListener;
+import com.advisoryapps.smack.XMPPConnection;
+import com.advisoryapps.smack.filter.AndFilter;
+import com.advisoryapps.smack.filter.MessageTypeFilter;
+import com.advisoryapps.smack.filter.StanzaExtensionFilter;
+import com.advisoryapps.smack.packet.Message;
+import com.advisoryapps.smack.packet.Stanza;
+import com.advisoryapps.smack.util.Async;
+import com.advisoryapps.smack.util.BooleansUtils;
+import com.advisoryapps.smack.util.MultiMap;
+import com.advisoryapps.smack.util.StringUtils;
 
-import org.jivesoftware.smackx.jiveproperties.JivePropertiesManager;
-import org.jivesoftware.smackx.jiveproperties.packet.JivePropertiesExtension;
+import com.advisoryapps.smackx.jiveproperties.JivePropertiesManager;
+import com.advisoryapps.smackx.jiveproperties.packet.JivePropertiesExtension;
 
 import org.igniterealtime.smack.XmppConnectionStressTest.StressTestFailedException.ErrorsWhileSendingOrReceivingException;
 import org.igniterealtime.smack.XmppConnectionStressTest.StressTestFailedException.NotAllMessagesReceivedException;

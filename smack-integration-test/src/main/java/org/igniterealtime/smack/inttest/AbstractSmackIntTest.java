@@ -26,12 +26,12 @@ import java.util.logging.Logger;
 
 import javax.net.ssl.HttpsURLConnection;
 
-import org.jivesoftware.smack.SmackException.NoResponseException;
-import org.jivesoftware.smack.SmackException.NotConnectedException;
-import org.jivesoftware.smack.StanzaCollector;
-import org.jivesoftware.smack.XMPPConnection;
-import org.jivesoftware.smack.XMPPException.XMPPErrorException;
-import org.jivesoftware.smack.filter.StanzaFilter;
+import com.advisoryapps.smack.SmackException.NoResponseException;
+import com.advisoryapps.smack.SmackException.NotConnectedException;
+import com.advisoryapps.smack.StanzaCollector;
+import com.advisoryapps.smack.XMPPConnection;
+import com.advisoryapps.smack.XMPPException.XMPPErrorException;
+import com.advisoryapps.smack.filter.StanzaFilter;
 
 public abstract class AbstractSmackIntTest {
 

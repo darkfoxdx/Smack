@@ -1,4 +1,4 @@
-package org.jivesoftware.smack.util;
+package com.advisoryapps.smack.util;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;
@@ -9,11 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-import org.jivesoftware.smack.util.dns.DNSJavaResolver;
-import org.jivesoftware.smack.util.dns.DNSResolver;
-import org.jivesoftware.smack.util.dns.HostAddress;
-import org.jivesoftware.smack.util.dns.JavaxResolver;
-import org.jivesoftware.smack.util.dns.SRVRecord;
+import com.advisoryapps.smack.util.dns.DNSJavaResolver;
+import com.advisoryapps.smack.util.dns.DNSResolver;
+import com.advisoryapps.smack.util.dns.HostAddress;
+import com.advisoryapps.smack.util.dns.JavaxResolver;
+import com.advisoryapps.smack.util.dns.SRVRecord;
 import org.junit.Test;
 
 public class DNSUtilTest {

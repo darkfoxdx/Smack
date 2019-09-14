@@ -14,10 +14,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx;
+package com.advisoryapps.smackx;
 
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smack.XMPPException;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smack.XMPPException;
 
 import java.util.List;
 

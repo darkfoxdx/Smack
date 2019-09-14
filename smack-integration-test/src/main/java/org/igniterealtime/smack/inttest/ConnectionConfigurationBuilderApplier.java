@@ -16,7 +16,7 @@
  */
 package org.igniterealtime.smack.inttest;
 
-import org.jivesoftware.smack.ConnectionConfiguration;
+import com.advisoryapps.smack.ConnectionConfiguration;
 
 public interface ConnectionConfigurationBuilderApplier {
     void applyConfigurationTo(ConnectionConfiguration.Builder<?, ?> connectionConfigurationBuilder);

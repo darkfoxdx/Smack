@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx;
+package com.advisoryapps.smackx;
 
 import java.util.ArrayList;
 
-import org.jivesoftware.smack.*;
-import org.jivesoftware.smack.packet.*;
-import org.jivesoftware.smack.test.SmackTestCase;
+import com.advisoryapps.smack.*;
+import com.advisoryapps.smack.packet.*;
+import com.advisoryapps.smack.test.SmackTestCase;
 
 /**
  *

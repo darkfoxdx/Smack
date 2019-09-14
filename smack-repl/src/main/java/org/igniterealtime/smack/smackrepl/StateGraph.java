@@ -24,10 +24,10 @@ import java.io.PrintWriter;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Collections;
 
-import org.jivesoftware.smack.fsm.StateDescriptor;
-import org.jivesoftware.smack.fsm.StateDescriptorGraph;
-import org.jivesoftware.smack.fsm.StateDescriptorGraph.GraphVertex;
-import org.jivesoftware.smack.tcp.XmppNioTcpConnection;
+import com.advisoryapps.smack.fsm.StateDescriptor;
+import com.advisoryapps.smack.fsm.StateDescriptorGraph;
+import com.advisoryapps.smack.fsm.StateDescriptorGraph.GraphVertex;
+import com.advisoryapps.smack.tcp.XmppNioTcpConnection;
 
 public class StateGraph {
 

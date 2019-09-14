@@ -21,10 +21,10 @@ import java.lang.reflect.InvocationTargetException;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 
-import org.jivesoftware.smack.DummyConnection;
-import org.jivesoftware.smack.DummyConnection.DummyConnectionConfiguration;
-import org.jivesoftware.smack.SmackException;
-import org.jivesoftware.smack.XMPPException;
+import com.advisoryapps.smack.DummyConnection;
+import com.advisoryapps.smack.DummyConnection.DummyConnectionConfiguration;
+import com.advisoryapps.smack.SmackException;
+import com.advisoryapps.smack.XMPPException;
 
 public class DummySmackIntegrationTestFramework extends SmackIntegrationTestFramework<DummyConnection> {
 

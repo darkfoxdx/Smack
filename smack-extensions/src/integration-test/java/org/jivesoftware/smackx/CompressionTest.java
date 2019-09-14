@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx;
+package com.advisoryapps.smackx;
 
-import org.jivesoftware.smack.*;
-import org.jivesoftware.smack.filter.PacketIDFilter;
-import org.jivesoftware.smack.packet.IQ;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.packet.Version;
+import com.advisoryapps.smack.*;
+import com.advisoryapps.smack.filter.PacketIDFilter;
+import com.advisoryapps.smack.packet.IQ;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.packet.Version;
 
 /**
  * Ensure that stream compression (XEP-138) is correctly supported by Smack.

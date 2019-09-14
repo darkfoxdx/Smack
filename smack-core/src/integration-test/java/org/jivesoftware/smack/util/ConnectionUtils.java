@@ -1,8 +1,8 @@
-package org.jivesoftware.smack.util;
+package com.advisoryapps.smack.util;
 
-import org.jivesoftware.smack.XMPPConnection;
-import org.jivesoftware.smack.Roster;
-import org.jivesoftware.smack.XMPPException;
+import com.advisoryapps.smack.XMPPConnection;
+import com.advisoryapps.smack.Roster;
+import com.advisoryapps.smack.XMPPException;
 
 public class ConnectionUtils {
 

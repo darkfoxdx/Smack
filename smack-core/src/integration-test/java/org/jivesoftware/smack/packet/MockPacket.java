@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smack.packet;
+package com.advisoryapps.smack.packet;
 
 /**
  * A mock implementation of the Stanza abstract class. Implements toXML() by returning null.

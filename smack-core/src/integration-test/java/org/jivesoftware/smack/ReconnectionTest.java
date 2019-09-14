@@ -12,13 +12,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smack;
+package com.advisoryapps.smack;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.ping.PingManager;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.ping.PingManager;
 
 /**
  * Tests the connection and reconnection mechanism

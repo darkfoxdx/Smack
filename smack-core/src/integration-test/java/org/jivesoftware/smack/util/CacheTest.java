@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smack.util;
+package com.advisoryapps.smack.util;
 
 import junit.framework.TestCase;
 

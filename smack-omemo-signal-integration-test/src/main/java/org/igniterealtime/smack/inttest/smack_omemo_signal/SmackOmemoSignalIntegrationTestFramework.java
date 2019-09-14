@@ -32,11 +32,11 @@ import javax.crypto.BadPaddingException;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 
-import org.jivesoftware.smack.SmackException;
-import org.jivesoftware.smack.XMPPException;
+import com.advisoryapps.smack.SmackException;
+import com.advisoryapps.smack.XMPPException;
 
-import org.jivesoftware.smackx.omemo.exceptions.CorruptedOmemoKeyException;
-import org.jivesoftware.smackx.omemo.signal.SignalOmemoService;
+import com.advisoryapps.smackx.omemo.exceptions.CorruptedOmemoKeyException;
+import com.advisoryapps.smackx.omemo.signal.SignalOmemoService;
 
 import org.igniterealtime.smack.inttest.SmackIntegrationTestFramework;
 
@@ -50,7 +50,7 @@ public class SmackOmemoSignalIntegrationTestFramework {
         SignalOmemoService.acknowledgeLicense();
         SignalOmemoService.setup();
 
-        final String[] smackOmemoPackages = new String[] { "org.jivesoftware.smackx.omemo" };
+        final String[] smackOmemoPackages = new String[] { "com.advisoryapps.smackx.omemo" };
         SmackIntegrationTestFramework.main(smackOmemoPackages);
     }
 

@@ -18,17 +18,17 @@ package org.igniterealtime.smack.inttest.util;
 
 import java.util.concurrent.TimeoutException;
 
-import org.jivesoftware.smack.SmackException.NoResponseException;
-import org.jivesoftware.smack.SmackException.NotConnectedException;
-import org.jivesoftware.smack.SmackException.NotLoggedInException;
-import org.jivesoftware.smack.XMPPConnection;
-import org.jivesoftware.smack.XMPPException.XMPPErrorException;
-import org.jivesoftware.smack.packet.Presence;
-import org.jivesoftware.smack.roster.AbstractPresenceEventListener;
-import org.jivesoftware.smack.roster.PresenceEventListener;
-import org.jivesoftware.smack.roster.Roster;
-import org.jivesoftware.smack.roster.RosterEntry;
-import org.jivesoftware.smack.roster.SubscribeListener;
+import com.advisoryapps.smack.SmackException.NoResponseException;
+import com.advisoryapps.smack.SmackException.NotConnectedException;
+import com.advisoryapps.smack.SmackException.NotLoggedInException;
+import com.advisoryapps.smack.XMPPConnection;
+import com.advisoryapps.smack.XMPPException.XMPPErrorException;
+import com.advisoryapps.smack.packet.Presence;
+import com.advisoryapps.smack.roster.AbstractPresenceEventListener;
+import com.advisoryapps.smack.roster.PresenceEventListener;
+import com.advisoryapps.smack.roster.Roster;
+import com.advisoryapps.smack.roster.RosterEntry;
+import com.advisoryapps.smack.roster.SubscribeListener;
 
 import org.jxmpp.jid.BareJid;
 import org.jxmpp.jid.EntityFullJid;

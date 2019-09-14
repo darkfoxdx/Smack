@@ -1,0 +1,135 @@
+/**
+ *
+ * Copyright 2003-2007 Jive Software.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package com.advisoryapps.smackx.jiveproperties.provider;
+
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import com.advisoryapps.smack.packet.XmlEnvironment;
+import com.advisoryapps.smack.provider.ExtensionElementProvider;
+import com.advisoryapps.smack.util.stringencoder.Base64;
+import com.advisoryapps.smack.xml.XmlPullParser;
+import com.advisoryapps.smack.xml.XmlPullParserException;
+
+import com.advisoryapps.smackx.jiveproperties.JivePropertiesManager;
+import com.advisoryapps.smackx.jiveproperties.packet.JivePropertiesExtension;
+
+public class JivePropertiesExtensionProvider extends ExtensionElementProvider<JivePropertiesExtension> {
+
+    private static final Logger LOGGER = Logger.getLogger(JivePropertiesExtensionProvider.class.getName());
+
+    /**
+     * Parse a properties sub-packet. If any errors occur while de-serializing Java object
+     * properties, an exception will be printed and not thrown since a thrown exception will shut
+     * down the entire connection. ClassCastExceptions will occur when both the sender and receiver
+     * of the stanza don't have identical versions of the same class.
+     * <p>
+     * Note that you have to explicitly enabled Java object deserialization with @{link
+     * {@link JivePropertiesManager#setJavaObjectEnabled(boolean)}
+     *
+     * @param parser the XML parser, positioned at the start of a properties sub-packet.
+     * @return a map of the properties.
+     * @throws IOException if an I/O error occured.
+     * @throws XmlPullParserException if an error in the XML parser occured.
+     */
+    @Override
+    public JivePropertiesExtension parse(XmlPullParser parser,
+                    int initialDepth, XmlEnvironment xmlEnvironment) throws XmlPullParserException,
+                    IOException {
+        Map<String, Object> properties = new HashMap<>();
+        while (true) {
+            XmlPullParser.Event eventType = parser.next();
+            if (eventType == XmlPullParser.Event.START_ELEMENT && parser.getName().equals("property")) {
+                // Parse a property
+                boolean done = false;
+                String name = null;
+                String type = null;
+                String valueText = null;
+                Object value = null;
+                while (!done) {
+                    eventType = parser.next();
+                    if (eventType == XmlPullParser.Event.START_ELEMENT) {
+                        String elementName = parser.getName();
+                        if (elementName.equals("name")) {
+                            name = parser.nextText();
+                        }
+                        else if (elementName.equals("value")) {
+                            type = parser.getAttributeValue("", "type");
+                            valueText = parser.nextText();
+                        }
+                    }
+                    else if (eventType == XmlPullParser.Event.END_ELEMENT) {
+                        if (parser.getName().equals("property")) {
+                            if ("integer".equals(type)) {
+                                value = Integer.valueOf(valueText);
+                            }
+                            else if ("long".equals(type))  {
+                                value = Long.valueOf(valueText);
+                            }
+                            else if ("float".equals(type)) {
+                                value = Float.valueOf(valueText);
+                            }
+                            else if ("double".equals(type)) {
+                                value = Double.valueOf(valueText);
+                            }
+                            else if ("boolean".equals(type)) {
+                                // CHECKSTYLE:OFF
+                                value = Boolean.valueOf(valueText);
+                                // CHECKSTYLE:ON
+                            }
+                            else if ("string".equals(type)) {
+                                value = valueText;
+                            }
+                            else if ("java-object".equals(type)) {
+                                if (JivePropertiesManager.isJavaObjectEnabled()) {
+                                    try {
+                                        byte[] bytes = Base64.decode(valueText);
+                                        ObjectInputStream in = new ObjectInputStream(
+                                                        new ByteArrayInputStream(bytes));
+                                        value = in.readObject();
+                                    }
+                                    catch (Exception e) {
+                                        LOGGER.log(Level.SEVERE, "Error parsing java object", e);
+                                    }
+                                }
+                                else {
+                                    LOGGER.severe("JavaObject is not enabled. Enable with JivePropertiesManager.setJavaObjectEnabled(true)");
+                                }
+                            }
+                            if (name != null && value != null) {
+                                properties.put(name, value);
+                            }
+                            done = true;
+                        }
+                    }
+                }
+            }
+            else if (eventType == XmlPullParser.Event.END_ELEMENT) {
+                if (parser.getName().equals(JivePropertiesExtension.ELEMENT)) {
+                    break;
+                }
+            }
+        }
+        return new JivePropertiesExtension(properties);
+    }
+
+}

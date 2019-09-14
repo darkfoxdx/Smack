@@ -26,9 +26,9 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-import org.jivesoftware.smack.AbstractXMPPConnection;
-import org.jivesoftware.smack.ConnectionConfiguration;
-import org.jivesoftware.smack.XMPPConnection;
+import com.advisoryapps.smack.AbstractXMPPConnection;
+import com.advisoryapps.smack.ConnectionConfiguration;
+import com.advisoryapps.smack.XMPPConnection;
 
 public class XmppConnectionDescriptor<C extends AbstractXMPPConnection, CC extends ConnectionConfiguration, CCB extends ConnectionConfiguration.Builder<?, CC>> {
 

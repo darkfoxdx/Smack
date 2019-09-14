@@ -14,11 +14,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.pubsub;
+package com.advisoryapps.smackx.pubsub;
 
-import org.jivesoftware.smack.packet.PacketExtension;
-import org.jivesoftware.smack.provider.PacketExtensionProvider;
-import org.jivesoftware.smack.xml.XmlPullParser;
+import com.advisoryapps.smack.packet.PacketExtension;
+import com.advisoryapps.smack.provider.PacketExtensionProvider;
+import com.advisoryapps.smack.xml.XmlPullParser;
 
 /**
  *

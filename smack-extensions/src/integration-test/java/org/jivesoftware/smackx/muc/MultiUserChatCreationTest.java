@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.muc;
+package com.advisoryapps.smackx.muc;
 
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.Form;
-import org.jivesoftware.smackx.FormField;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.Form;
+import com.advisoryapps.smackx.FormField;
 
 import java.util.ArrayList;
 import java.util.Iterator;

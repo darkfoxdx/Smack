@@ -31,12 +31,12 @@ import java.util.logging.Logger;
 
 import javax.net.ssl.SSLContext;
 
-import org.jivesoftware.smack.ConnectionConfiguration.SecurityMode;
-import org.jivesoftware.smack.debugger.ConsoleDebugger;
-import org.jivesoftware.smack.util.Objects;
-import org.jivesoftware.smack.util.StringUtils;
+import com.advisoryapps.smack.ConnectionConfiguration.SecurityMode;
+import com.advisoryapps.smack.debugger.ConsoleDebugger;
+import com.advisoryapps.smack.util.Objects;
+import com.advisoryapps.smack.util.StringUtils;
 
-import org.jivesoftware.smackx.debugger.EnhancedDebugger;
+import com.advisoryapps.smackx.debugger.EnhancedDebugger;
 
 import eu.geekplace.javapinning.java7.Java7Pinning;
 import org.jxmpp.jid.DomainBareJid;
@@ -452,7 +452,7 @@ public final class Configuration {
     private static String getFullTestStringFrom(String string) {
         string = string.trim();
         if (string.startsWith("smackx.") || string.startsWith("smack.")) {
-            string = "org.jivesoftware." + string;
+            string = "com.advisoryapps." + string;
         }
         return string;
     }

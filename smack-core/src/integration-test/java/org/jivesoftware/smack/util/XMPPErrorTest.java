@@ -14,15 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smack.util;
+package com.advisoryapps.smack.util;
 
 import java.io.StringReader;
 
-import org.jivesoftware.smack.packet.XMPPError;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smack.xml.XmlPullParserFactory;
-import org.jivesoftware.smack.xml.XmlPullParser;
-import org.jivesoftware.smack.xml.XmlPullParserException;
+import com.advisoryapps.smack.packet.XMPPError;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smack.xml.XmlPullParserFactory;
+import com.advisoryapps.smack.xml.XmlPullParser;
+import com.advisoryapps.smack.xml.XmlPullParserException;
 
 public class XMPPErrorTest extends SmackTestCase {
 

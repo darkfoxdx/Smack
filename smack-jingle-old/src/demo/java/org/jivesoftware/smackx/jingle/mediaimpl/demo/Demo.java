@@ -14,20 +14,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.jingle.mediaimpl.demo;
+package com.advisoryapps.smackx.jingle.mediaimpl.demo;
 
-import org.jivesoftware.smack.XMPPConnection;
-import org.jivesoftware.smack.TCPConnection;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smackx.jingle.JingleManager;
-import org.jivesoftware.smackx.jingle.JingleSession;
-import org.jivesoftware.smackx.jingle.JingleSessionRequest;
-import org.jivesoftware.smackx.jingle.listeners.JingleSessionRequestListener;
-import org.jivesoftware.smackx.jingle.media.JingleMediaManager;
-import org.jivesoftware.smackx.jingle.mediaimpl.jspeex.SpeexMediaManager;
-import org.jivesoftware.smackx.jingle.mediaimpl.sshare.ScreenShareMediaManager;
-import org.jivesoftware.smackx.jingle.nat.ICETransportManager;
-import org.jivesoftware.smackx.jingle.nat.JingleTransportManager;
+import com.advisoryapps.smack.XMPPConnection;
+import com.advisoryapps.smack.TCPConnection;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smackx.jingle.JingleManager;
+import com.advisoryapps.smackx.jingle.JingleSession;
+import com.advisoryapps.smackx.jingle.JingleSessionRequest;
+import com.advisoryapps.smackx.jingle.listeners.JingleSessionRequestListener;
+import com.advisoryapps.smackx.jingle.media.JingleMediaManager;
+import com.advisoryapps.smackx.jingle.mediaimpl.jspeex.SpeexMediaManager;
+import com.advisoryapps.smackx.jingle.mediaimpl.sshare.ScreenShareMediaManager;
+import com.advisoryapps.smackx.jingle.nat.ICETransportManager;
+import com.advisoryapps.smackx.jingle.nat.JingleTransportManager;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

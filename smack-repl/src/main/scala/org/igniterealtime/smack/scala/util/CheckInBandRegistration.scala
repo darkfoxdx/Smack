@@ -21,10 +21,10 @@ import scala.language.postfixOps
 import org.jxmpp.jid.DomainBareJid
 import org.jxmpp.jid.impl.JidCreate
 
-import org.jivesoftware.smack.tcp.XMPPTCPConnection
-import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration
+import XMPPTCPConnection
+import XMPPTCPConnectionConfiguration
 
-import org.jivesoftware.smackx.iqregister.AccountManager
+import AccountManager
 
 object CheckInBandRegistration {
 

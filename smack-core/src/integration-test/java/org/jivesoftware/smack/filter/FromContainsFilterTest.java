@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smack.filter;
+package com.advisoryapps.smack.filter;
 
 import junit.framework.TestCase;
-import org.jivesoftware.smack.packet.*;
+import com.advisoryapps.smack.packet.*;
 
 /**
  * A test case for the FromContainsFilter class.

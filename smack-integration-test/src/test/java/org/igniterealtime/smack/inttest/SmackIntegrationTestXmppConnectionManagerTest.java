@@ -22,8 +22,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 
-import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
-import org.jivesoftware.smack.tcp.XmppNioTcpConnection;
+import com.advisoryapps.smack.tcp.XMPPTCPConnectionConfiguration;
+import com.advisoryapps.smack.tcp.XmppNioTcpConnection;
 
 import org.junit.Test;
 import org.jxmpp.stringprep.XmppStringprepException;
