@@ -1,0 +1,23 @@
+<smack>
+    <startupClasses>
+        <className>com.advisoryapps.smackx.disco.ServiceDiscoveryManager</className>
+        <className>com.advisoryapps.smackx.xhtmlim.XHTMLManager</className>
+        <className>com.advisoryapps.smackx.muc.MultiUserChatManager</className>
+        <className>com.advisoryapps.smackx.muc.bookmarkautojoin.MucBookmarkAutojoinManager</className>
+        <className>com.advisoryapps.smackx.bytestreams.ibb.InBandBytestreamManager</className>
+        <className>com.advisoryapps.smackx.bytestreams.socks5.Socks5BytestreamManager</className>
+        <className>com.advisoryapps.smackx.filetransfer.FileTransferManager</className>
+        <className>com.advisoryapps.smackx.iqlast.LastActivityManager</className>
+        <className>com.advisoryapps.smackx.commands.AdHocCommandManager</className>
+        <className>com.advisoryapps.smackx.ping.PingManager</className>
+        <className>com.advisoryapps.smackx.privacy.PrivacyListManager</className>
+        <className>com.advisoryapps.smackx.time.EntityTimeManager</className>
+        <className>com.advisoryapps.smackx.vcardtemp.VCardManager</className>
+        <className>com.advisoryapps.smackx.xdata.XDataManager</className>
+        <className>com.advisoryapps.smackx.xdatalayout.XDataLayoutManager</className>
+        <className>com.advisoryapps.smackx.xdatavalidation.XDataValidationManager</className>
+		<className>com.advisoryapps.smackx.receipts.DeliveryReceiptManager</className>
+		<className>com.advisoryapps.smackx.iqversion.VersionManager</className>
+		<className>com.advisoryapps.smackx.caps.EntityCapsManager</className>
+    </startupClasses>
+</smack>

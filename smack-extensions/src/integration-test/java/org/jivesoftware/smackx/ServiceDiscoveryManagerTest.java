@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx;
+package com.advisoryapps.smackx;
 
 import java.util.Iterator;
 
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.packet.DiscoverInfo;
-import org.jivesoftware.smackx.packet.DiscoverInfo.Identity;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.packet.DiscoverInfo;
+import com.advisoryapps.smackx.packet.DiscoverInfo.Identity;
 
 
 /**

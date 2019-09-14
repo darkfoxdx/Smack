@@ -12,15 +12,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smack;
+package com.advisoryapps.smack;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
-import org.jivesoftware.smack.packet.Presence;
-import org.jivesoftware.smack.test.SmackTestCase;
+import com.advisoryapps.smack.packet.Presence;
+import com.advisoryapps.smack.test.SmackTestCase;
 
 /**
  * Test cases for adding the {@link RosterListener} in different connection states.

@@ -12,12 +12,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smack;
+package com.advisoryapps.smack;
 
 import java.util.List;
 
-import org.jivesoftware.smack.packet.Privacy;
-import org.jivesoftware.smack.packet.PrivacyItem;
+import com.advisoryapps.smack.packet.Privacy;
+import com.advisoryapps.smack.packet.PrivacyItem;
 
 /**
  * This class supports automated tests about privacy communication from the

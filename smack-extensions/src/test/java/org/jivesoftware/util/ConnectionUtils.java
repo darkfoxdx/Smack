@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.util;
+package com.advisoryapps.util;
 
 import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.ArgumentMatchers.anyLong;
@@ -23,15 +23,15 @@ import static org.mockito.Mockito.doAnswer;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-import org.jivesoftware.smack.SmackException;
-import org.jivesoftware.smack.StanzaCollector;
-import org.jivesoftware.smack.XMPPConnection;
-import org.jivesoftware.smack.XMPPException.XMPPErrorException;
-import org.jivesoftware.smack.filter.StanzaFilter;
-import org.jivesoftware.smack.packet.IQ;
-import org.jivesoftware.smack.packet.Stanza;
+import com.advisoryapps.smack.SmackException;
+import com.advisoryapps.smack.StanzaCollector;
+import com.advisoryapps.smack.XMPPConnection;
+import com.advisoryapps.smack.XMPPException.XMPPErrorException;
+import com.advisoryapps.smack.filter.StanzaFilter;
+import com.advisoryapps.smack.packet.IQ;
+import com.advisoryapps.smack.packet.Stanza;
 
-import org.jivesoftware.smackx.disco.ServiceDiscoveryManager;
+import com.advisoryapps.smackx.disco.ServiceDiscoveryManager;
 
 import org.jxmpp.jid.DomainBareJid;
 import org.jxmpp.jid.EntityFullJid;

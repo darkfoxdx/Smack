@@ -1,11 +1,11 @@
 <smack>
     <startupClasses>
-        <className>org.jivesoftware.smackx.hoxt.HOXTManager</className>
-        <className>org.jivesoftware.smackx.iot.data.IoTDataManager</className>
-        <className>org.jivesoftware.smackx.iot.discovery.IoTDiscoveryManager</className>
-        <className>org.jivesoftware.smackx.iot.provisioning.IoTProvisioningManager</className>
-        <className>org.jivesoftware.smackx.httpfileupload.HttpFileUploadManager</className>
-		<className>org.jivesoftware.smackx.eme.ExplicitMessageEncryptionManager</className>
-        <className>org.jivesoftware.smackx.sid.StableUniqueStanzaIdManager</className>
+        <className>com.advisoryapps.smackx.hoxt.HOXTManager</className>
+        <className>com.advisoryapps.smackx.iot.data.IoTDataManager</className>
+        <className>com.advisoryapps.smackx.iot.discovery.IoTDiscoveryManager</className>
+        <className>com.advisoryapps.smackx.iot.provisioning.IoTProvisioningManager</className>
+        <className>com.advisoryapps.smackx.httpfileupload.HttpFileUploadManager</className>
+		<className>com.advisoryapps.smackx.eme.ExplicitMessageEncryptionManager</className>
+        <className>com.advisoryapps.smackx.sid.StableUniqueStanzaIdManager</className>
     </startupClasses>
 </smack>

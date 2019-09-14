@@ -14,14 +14,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.pubsub;
+package com.advisoryapps.smackx.pubsub;
 
 import java.util.Collection;
 import java.util.List;
 
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.packet.XMPPError;
-import org.jivesoftware.smackx.pubsub.test.PubSubTestCase;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.packet.XMPPError;
+import com.advisoryapps.smackx.pubsub.test.PubSubTestCase;
 
 /**
  *

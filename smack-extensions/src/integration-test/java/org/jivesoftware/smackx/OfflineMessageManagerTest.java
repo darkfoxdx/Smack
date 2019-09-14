@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx;
+package com.advisoryapps.smackx;
 
-import org.jivesoftware.smack.Chat;
-import org.jivesoftware.smack.StanzaCollector;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.filter.MessageTypeFilter;
-import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.packet.Presence;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.packet.OfflineMessageInfo;
+import com.advisoryapps.smack.Chat;
+import com.advisoryapps.smack.StanzaCollector;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.filter.MessageTypeFilter;
+import com.advisoryapps.smack.packet.Message;
+import com.advisoryapps.smack.packet.Presence;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.packet.OfflineMessageInfo;
 
 import java.util.ArrayList;
 import java.util.Iterator;

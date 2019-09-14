@@ -14,15 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.pubsub;
+package com.advisoryapps.smackx.pubsub;
 
 import java.util.Iterator;
 import java.util.List;
 
-import org.jivesoftware.smackx.packet.DiscoverInfo;
-import org.jivesoftware.smackx.packet.DiscoverItems;
-import org.jivesoftware.smackx.packet.DiscoverInfo.Identity;
-import org.jivesoftware.smackx.pubsub.test.SingleUserTestCase;
+import com.advisoryapps.smackx.packet.DiscoverInfo;
+import com.advisoryapps.smackx.packet.DiscoverItems;
+import com.advisoryapps.smackx.packet.DiscoverInfo.Identity;
+import com.advisoryapps.smackx.pubsub.test.SingleUserTestCase;
 
 /**
  *

@@ -12,14 +12,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smack.packet;
+package com.advisoryapps.smack.packet;
 
-import org.jivesoftware.smack.PrivacyList;
-import org.jivesoftware.smack.PrivacyListListener;
-import org.jivesoftware.smack.PrivacyListManager;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.packet.PrivacyItem.PrivacyRule;
-import org.jivesoftware.smack.test.SmackTestCase;
+import com.advisoryapps.smack.PrivacyList;
+import com.advisoryapps.smack.PrivacyListListener;
+import com.advisoryapps.smack.PrivacyListManager;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.packet.PrivacyItem.PrivacyRule;
+import com.advisoryapps.smack.test.SmackTestCase;
 
 import java.util.ArrayList;
 import java.util.Arrays;

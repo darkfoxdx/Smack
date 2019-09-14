@@ -11,26 +11,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.bytestreams.ibb;
+package com.advisoryapps.smackx.bytestreams.ibb;
 
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Random;
 import java.util.concurrent.SynchronousQueue;
 
-import org.jivesoftware.smack.XMPPConnection;
-import org.jivesoftware.smack.StanzaCollector;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.filter.PacketIDFilter;
-import org.jivesoftware.smack.packet.Packet;
-import org.jivesoftware.smack.packet.XMPPError;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamListener;
-import org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamManager;
-import org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamRequest;
-import org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession;
-import org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamManager.StanzaType;
-import org.jivesoftware.smackx.bytestreams.ibb.packet.Open;
+import com.advisoryapps.smack.XMPPConnection;
+import com.advisoryapps.smack.StanzaCollector;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.filter.PacketIDFilter;
+import com.advisoryapps.smack.packet.Packet;
+import com.advisoryapps.smack.packet.XMPPError;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.bytestreams.ibb.InBandBytestreamListener;
+import com.advisoryapps.smackx.bytestreams.ibb.InBandBytestreamManager;
+import com.advisoryapps.smackx.bytestreams.ibb.InBandBytestreamRequest;
+import com.advisoryapps.smackx.bytestreams.ibb.InBandBytestreamSession;
+import com.advisoryapps.smackx.bytestreams.ibb.InBandBytestreamManager.StanzaType;
+import com.advisoryapps.smackx.bytestreams.ibb.packet.Open;
 
 /**
  * Test for In-Band Bytestreams with real XMPP servers.

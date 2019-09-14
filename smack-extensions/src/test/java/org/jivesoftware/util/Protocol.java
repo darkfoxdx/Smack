@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.util;
+package com.advisoryapps.util;
 
 import static org.junit.Assert.assertEquals;
 
@@ -23,8 +23,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import org.jivesoftware.smack.packet.Stanza;
-import org.jivesoftware.smack.util.XmlUtil;
+import com.advisoryapps.smack.packet.Stanza;
+import com.advisoryapps.smack.util.XmlUtil;
 
 /**
  * This class can be used in conjunction with a mocked XMPP connection (

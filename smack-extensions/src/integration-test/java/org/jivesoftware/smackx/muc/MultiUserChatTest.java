@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx.muc;
+package com.advisoryapps.smackx.muc;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -25,26 +25,26 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.TimeZone;
 
-import org.jivesoftware.smack.Chat;
-import org.jivesoftware.smack.ChatManagerListener;
-import org.jivesoftware.smack.XMPPConnection;
-import org.jivesoftware.smack.ConnectionConfiguration;
-import org.jivesoftware.smack.StanzaCollector;
-import org.jivesoftware.smack.SmackConfiguration;
-import org.jivesoftware.smack.TCPConnection;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.packet.IQ;
-import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.packet.Presence;
-import org.jivesoftware.smack.packet.XMPPError;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.Form;
-import org.jivesoftware.smackx.FormField;
-import org.jivesoftware.smackx.ServiceDiscoveryManager;
-import org.jivesoftware.smackx.delay.DelayInformationManager;
-import org.jivesoftware.smackx.packet.DelayInformation;
-import org.jivesoftware.smackx.packet.DiscoverInfo;
-import org.jivesoftware.smackx.packet.XHTMLExtension;
+import com.advisoryapps.smack.Chat;
+import com.advisoryapps.smack.ChatManagerListener;
+import com.advisoryapps.smack.XMPPConnection;
+import com.advisoryapps.smack.ConnectionConfiguration;
+import com.advisoryapps.smack.StanzaCollector;
+import com.advisoryapps.smack.SmackConfiguration;
+import com.advisoryapps.smack.TCPConnection;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.packet.IQ;
+import com.advisoryapps.smack.packet.Message;
+import com.advisoryapps.smack.packet.Presence;
+import com.advisoryapps.smack.packet.XMPPError;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.Form;
+import com.advisoryapps.smackx.FormField;
+import com.advisoryapps.smackx.ServiceDiscoveryManager;
+import com.advisoryapps.smackx.delay.DelayInformationManager;
+import com.advisoryapps.smackx.packet.DelayInformation;
+import com.advisoryapps.smackx.packet.DiscoverInfo;
+import com.advisoryapps.smackx.packet.XHTMLExtension;
 
 /**
  * Tests the new MUC functionalities.

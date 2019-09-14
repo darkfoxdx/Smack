@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.util;
+package com.advisoryapps.util;
 
 import static org.junit.Assert.assertEquals;
 
-import org.jivesoftware.smack.packet.IQ;
-import org.jivesoftware.smack.packet.Stanza;
+import com.advisoryapps.smack.packet.IQ;
+import com.advisoryapps.smack.packet.Stanza;
 
 /**
  * Implement this interface to verify a request/response pair.

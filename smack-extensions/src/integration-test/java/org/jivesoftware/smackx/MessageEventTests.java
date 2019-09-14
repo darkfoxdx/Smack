@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx;
+package com.advisoryapps.smackx;
 
-import org.jivesoftware.smackx.packet.MessageEventTest;
+import com.advisoryapps.smackx.packet.MessageEventTest;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;

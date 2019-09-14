@@ -1,0 +1,22 @@
+<?xml version="1.0"?> 
+<smackProviders>
+
+    <iqProvider>
+        <elementName>query</elementName>
+        <namespace>jabber:iq:roster</namespace>
+        <className>RosterPacketProvider</className>
+    </iqProvider>
+
+    <streamFeatureProvider>
+        <elementName>sub</elementName>
+        <namespace>urn:xmpp:features:pre-approval</namespace>
+        <className>SubscriptionPreApprovalStreamFeatureProvider</className>
+    </streamFeatureProvider>
+
+    <streamFeatureProvider>
+        <elementName>ver</elementName>
+        <namespace>urn:xmpp:features:rosterver</namespace>
+        <className>RosterVerStreamFeatureProvider</className>
+    </streamFeatureProvider>
+
+</smackProviders>

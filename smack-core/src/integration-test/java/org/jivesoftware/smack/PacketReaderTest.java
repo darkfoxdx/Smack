@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smack;
+package com.advisoryapps.smack;
 
-import org.jivesoftware.smack.filter.FromMatchesFilter;
-import org.jivesoftware.smack.filter.PacketIDFilter;
-import org.jivesoftware.smack.filter.StanzaTypeFilter;
-import org.jivesoftware.smack.filter.PacketFilter;
-import org.jivesoftware.smack.packet.*;
-import org.jivesoftware.smack.test.SmackTestCase;
+import com.advisoryapps.smack.filter.FromMatchesFilter;
+import com.advisoryapps.smack.filter.PacketIDFilter;
+import com.advisoryapps.smack.filter.StanzaTypeFilter;
+import com.advisoryapps.smack.filter.PacketFilter;
+import com.advisoryapps.smack.packet.*;
+import com.advisoryapps.smack.test.SmackTestCase;
 
 import java.util.Date;
 

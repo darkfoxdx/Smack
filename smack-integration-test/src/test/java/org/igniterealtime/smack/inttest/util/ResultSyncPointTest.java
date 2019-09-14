@@ -21,7 +21,7 @@ import static org.junit.Assert.assertEquals;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
-import org.jivesoftware.smack.util.Async;
+import com.advisoryapps.smack.util.Async;
 
 import org.junit.Test;
 

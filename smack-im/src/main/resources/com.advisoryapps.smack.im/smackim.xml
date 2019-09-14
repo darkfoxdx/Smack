@@ -1,0 +1,5 @@
+<smack>
+    <startupClasses>
+        <className>com.advisoryapps.smack.roster.Roster</className>
+    </startupClasses>
+</smack>

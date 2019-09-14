@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx.jingle;
+package com.advisoryapps.smackx.jingle;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;

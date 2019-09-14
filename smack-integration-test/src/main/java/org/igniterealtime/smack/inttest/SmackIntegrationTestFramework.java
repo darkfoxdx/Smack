@@ -43,20 +43,20 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.jivesoftware.smack.ConnectionConfiguration.SecurityMode;
-import org.jivesoftware.smack.SmackConfiguration;
-import org.jivesoftware.smack.SmackException;
-import org.jivesoftware.smack.SmackException.NoResponseException;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.debugger.ConsoleDebugger;
-import org.jivesoftware.smack.tcp.XMPPTCPConnection;
-import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
-import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration.Builder;
-import org.jivesoftware.smack.util.StringUtils;
+import com.advisoryapps.smack.ConnectionConfiguration.SecurityMode;
+import com.advisoryapps.smack.SmackConfiguration;
+import com.advisoryapps.smack.SmackException;
+import com.advisoryapps.smack.SmackException.NoResponseException;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.debugger.ConsoleDebugger;
+import com.advisoryapps.smack.tcp.XMPPTCPConnection;
+import com.advisoryapps.smack.tcp.XMPPTCPConnectionConfiguration;
+import com.advisoryapps.smack.tcp.XMPPTCPConnectionConfiguration.Builder;
+import com.advisoryapps.smack.util.StringUtils;
 
-import org.jivesoftware.smackx.debugger.EnhancedDebugger;
-import org.jivesoftware.smackx.debugger.EnhancedDebuggerWindow;
-import org.jivesoftware.smackx.iqregister.AccountManager;
+import com.advisoryapps.smackx.debugger.EnhancedDebugger;
+import com.advisoryapps.smackx.debugger.EnhancedDebuggerWindow;
+import com.advisoryapps.smackx.iqregister.AccountManager;
 
 import org.igniterealtime.smack.inttest.IntTestUtil.UsernameAndPassword;
 import org.junit.AfterClass;
@@ -142,7 +142,7 @@ public class SmackIntegrationTestFramework {
             // JUL Debugger will not print any information until configured to print log messages of
             // level FINE
             // TODO configure JUL for log?
-            SmackConfiguration.addDisabledSmackClass("org.jivesoftware.smack.debugger.JulDebugger");
+            SmackConfiguration.addDisabledSmackClass("com.advisoryapps.smack.debugger.JulDebugger");
             SmackConfiguration.DEBUG = true;
         }
         if (config.replyTimeout > 0) {
@@ -155,7 +155,7 @@ public class SmackIntegrationTestFramework {
 
         String[] testPackages;
         if (config.testPackages == null) {
-            testPackages = new String[] { "org.jivesoftware.smackx", "org.jivesoftware.smack" };
+            testPackages = new String[] { "com.advisoryapps.smackx", "com.advisoryapps.smack" };
         }
         else {
             testPackages = config.testPackages.toArray(new String[config.testPackages.size()]);

@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.bytestreams.socks5;
+package com.advisoryapps.smackx.bytestreams.socks5;
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -21,22 +21,22 @@ import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-import org.jivesoftware.smack.XMPPConnection;
-import org.jivesoftware.smack.StanzaCollector;
-import org.jivesoftware.smack.SmackConfiguration;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.filter.PacketIDFilter;
-import org.jivesoftware.smack.packet.Packet;
-import org.jivesoftware.smack.packet.XMPPError;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.ServiceDiscoveryManager;
-import org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamListener;
-import org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager;
-import org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest;
-import org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamSession;
-import org.jivesoftware.smackx.bytestreams.socks5.Socks5PacketUtils;
-import org.jivesoftware.smackx.bytestreams.socks5.Socks5Proxy;
-import org.jivesoftware.smackx.bytestreams.socks5.packet.Bytestream;
+import com.advisoryapps.smack.XMPPConnection;
+import com.advisoryapps.smack.StanzaCollector;
+import com.advisoryapps.smack.SmackConfiguration;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.filter.PacketIDFilter;
+import com.advisoryapps.smack.packet.Packet;
+import com.advisoryapps.smack.packet.XMPPError;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.ServiceDiscoveryManager;
+import com.advisoryapps.smackx.bytestreams.socks5.Socks5BytestreamListener;
+import com.advisoryapps.smackx.bytestreams.socks5.Socks5BytestreamManager;
+import com.advisoryapps.smackx.bytestreams.socks5.Socks5BytestreamRequest;
+import com.advisoryapps.smackx.bytestreams.socks5.Socks5BytestreamSession;
+import com.advisoryapps.smackx.bytestreams.socks5.Socks5PacketUtils;
+import com.advisoryapps.smackx.bytestreams.socks5.Socks5Proxy;
+import com.advisoryapps.smackx.bytestreams.socks5.packet.Bytestream;
 
 /**
  * Test for Socks5 bytestreams with real XMPP servers.

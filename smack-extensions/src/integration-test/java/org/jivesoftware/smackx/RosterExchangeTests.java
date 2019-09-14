@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx;
+package com.advisoryapps.smackx;
 
-import org.jivesoftware.smackx.packet.RosterExchangeTest;
+import com.advisoryapps.smackx.packet.RosterExchangeTest;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;

@@ -1,4 +1,4 @@
-package org.jivesoftware.smackx.jingle;
+package com.advisoryapps.smackx.jingle;
 
 /**
  * <p/>
@@ -17,20 +17,20 @@ package org.jivesoftware.smackx.jingle;
  * limitations under the License.
  */
 
-import org.jivesoftware.smack.TCPConnection;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.jingle.listeners.JingleSessionRequestListener;
-import org.jivesoftware.smackx.jingle.media.JingleMediaManager;
-import org.jivesoftware.smackx.jingle.mediaimpl.jmf.AudioChannel;
-import org.jivesoftware.smackx.jingle.mediaimpl.jmf.JmfMediaManager;
-import org.jivesoftware.smackx.jingle.mediaimpl.jspeex.SpeexMediaManager;
-import org.jivesoftware.smackx.jingle.mediaimpl.multi.MultiMediaManager;
-import org.jivesoftware.smackx.jingle.mediaimpl.sshare.ScreenShareMediaManager;
-import org.jivesoftware.smackx.jingle.nat.BridgedTransportManager;
-import org.jivesoftware.smackx.jingle.nat.ICETransportManager;
-import org.jivesoftware.smackx.jingle.nat.STUNTransportManager;
-import org.jivesoftware.smackx.jingle.packet.JingleError;
+import com.advisoryapps.smack.TCPConnection;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.jingle.listeners.JingleSessionRequestListener;
+import com.advisoryapps.smackx.jingle.media.JingleMediaManager;
+import com.advisoryapps.smackx.jingle.mediaimpl.jmf.AudioChannel;
+import com.advisoryapps.smackx.jingle.mediaimpl.jmf.JmfMediaManager;
+import com.advisoryapps.smackx.jingle.mediaimpl.jspeex.SpeexMediaManager;
+import com.advisoryapps.smackx.jingle.mediaimpl.multi.MultiMediaManager;
+import com.advisoryapps.smackx.jingle.mediaimpl.sshare.ScreenShareMediaManager;
+import com.advisoryapps.smackx.jingle.nat.BridgedTransportManager;
+import com.advisoryapps.smackx.jingle.nat.ICETransportManager;
+import com.advisoryapps.smackx.jingle.nat.STUNTransportManager;
+import com.advisoryapps.smackx.jingle.packet.JingleError;
 
 import javax.media.MediaLocator;
 import javax.media.format.AudioFormat;

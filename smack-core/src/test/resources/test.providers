@@ -5,7 +5,7 @@
     <iqProvider>
         <elementName>provider</elementName>
         <namespace>test:file_provider</namespace>
-        <className>org.jivesoftware.smack.provider.ProviderConfigTest$TestIQProvider</className>
+        <className>ProviderConfigTest$TestIQProvider</className>
     </iqProvider>
 
 </smackProviders>

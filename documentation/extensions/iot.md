@@ -15,7 +15,7 @@ Smack only supports a subset of the functionality described by the XEPs!
 Thing Builder
 -------------
 
-The `org.jivesoftware.smackx.iot.Thing` class acts as basic entity representing a single "Thing" which can be used to retrieve data from or to send control commands to. `Things` are constructed using a builder API.
+The `Thing` class acts as basic entity representing a single "Thing" which can be used to retrieve data from or to send control commands to. `Things` are constructed using a builder API.
 
 
 Reading data from things

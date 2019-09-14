@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx;
+package com.advisoryapps.smackx;
 
-import org.jivesoftware.smack.*;
-import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smack.filter.PacketFilter;
-import org.jivesoftware.smack.filter.StanzaExtensionFilter;
+import com.advisoryapps.smack.*;
+import com.advisoryapps.smack.packet.Message;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smack.filter.PacketFilter;
+import com.advisoryapps.smack.filter.StanzaExtensionFilter;
 
 /**
  *

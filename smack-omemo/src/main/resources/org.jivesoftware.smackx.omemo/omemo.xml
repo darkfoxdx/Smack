@@ -1,5 +1,5 @@
 <smack>
     <startupClasses>
-        <className>org.jivesoftware.smackx.omemo.OmemoManager</className>
+        <className>com.advisoryapps.smackx.omemo.OmemoManager</className>
     </startupClasses>
 </smack>

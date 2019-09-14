@@ -15,15 +15,15 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smack;
+package com.advisoryapps.smack;
 
-import org.jivesoftware.smack.filter.AndFilter;
-import org.jivesoftware.smack.filter.PacketFilter;
-import org.jivesoftware.smack.filter.PacketIDFilter;
-import org.jivesoftware.smack.filter.StanzaTypeFilter;
-import org.jivesoftware.smack.packet.IQ;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.packet.Version;
+import com.advisoryapps.smack.filter.AndFilter;
+import com.advisoryapps.smack.filter.PacketFilter;
+import com.advisoryapps.smack.filter.PacketIDFilter;
+import com.advisoryapps.smack.filter.StanzaTypeFilter;
+import com.advisoryapps.smack.packet.IQ;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.packet.Version;
 
 /**
  * Ensure that the server is handling IQ packets correctly.

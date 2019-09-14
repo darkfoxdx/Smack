@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smack.packet;
+package com.advisoryapps.smack.packet;
 
-import org.jivesoftware.smack.filter.PacketFilter;
+import com.advisoryapps.smack.filter.PacketFilter;
 
 /**
  * A mock implementation of the PacketFilter class. Pass in the value you want the

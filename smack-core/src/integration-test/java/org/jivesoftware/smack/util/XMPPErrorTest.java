@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smack.util;
+package com.advisoryapps.smack.util;
 
 import java.io.StringReader;
 
-import org.jivesoftware.smack.packet.XMPPError;
-import org.jivesoftware.smack.test.SmackTestCase;
+import com.advisoryapps.smack.packet.XMPPError;
+import com.advisoryapps.smack.test.SmackTestCase;
 import org.xmlpull.v1.XmlPullParserFactory;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

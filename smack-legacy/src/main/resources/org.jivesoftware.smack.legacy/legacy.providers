@@ -6,14 +6,14 @@
     <extensionProvider>
         <elementName>x</elementName>
         <namespace>jabber:x:roster</namespace>
-        <className>org.jivesoftware.smackx.xroster.provider.RosterExchangeProvider</className>
+        <className>RosterExchangeProvider</className>
     </extensionProvider>
 
     <!-- Message Events -->
     <extensionProvider>
         <elementName>x</elementName>
         <namespace>jabber:x:event</namespace>
-        <className>org.jivesoftware.smackx.xevent.provider.MessageEventProvider</className>
+        <className>MessageEventProvider</className>
     </extensionProvider>
 
 </smackProviders>

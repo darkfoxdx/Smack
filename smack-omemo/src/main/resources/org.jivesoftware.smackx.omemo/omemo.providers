@@ -4,16 +4,16 @@
     <extensionProvider>
       <elementName>encrypted</elementName>
       <namespace>eu.siacs.conversations.axolotl</namespace>
-      <className>org.jivesoftware.smackx.omemo.provider.OmemoVAxolotlProvider</className>
+      <className>OmemoVAxolotlProvider</className>
     </extensionProvider>
     <extensionProvider>
       <elementName>list</elementName>
       <namespace>eu.siacs.conversations.axolotl</namespace>
-      <className>org.jivesoftware.smackx.omemo.provider.OmemoDeviceListVAxolotlProvider</className>
+      <className>OmemoDeviceListVAxolotlProvider</className>
     </extensionProvider>
     <extensionProvider>
       <elementName>bundle</elementName>
       <namespace>eu.siacs.conversations.axolotl</namespace>
-      <className>org.jivesoftware.smackx.omemo.provider.OmemoBundleVAxolotlProvider</className>
+      <className>OmemoBundleVAxolotlProvider</className>
     </extensionProvider>
 </smackProviders>

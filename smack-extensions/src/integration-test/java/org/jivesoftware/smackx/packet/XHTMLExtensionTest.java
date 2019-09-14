@@ -15,19 +15,19 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx.packet;
+package com.advisoryapps.smackx.packet;
 
 import java.util.Iterator;
 
-import org.jivesoftware.smack.Chat;
-import org.jivesoftware.smack.StanzaCollector;
-import org.jivesoftware.smack.PacketListener;
-import org.jivesoftware.smack.filter.StanzaExtensionFilter;
-import org.jivesoftware.smack.filter.PacketFilter;
-import org.jivesoftware.smack.filter.ThreadFilter;
-import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.packet.Packet;
-import org.jivesoftware.smack.test.SmackTestCase;
+import com.advisoryapps.smack.Chat;
+import com.advisoryapps.smack.StanzaCollector;
+import com.advisoryapps.smack.PacketListener;
+import com.advisoryapps.smack.filter.StanzaExtensionFilter;
+import com.advisoryapps.smack.filter.PacketFilter;
+import com.advisoryapps.smack.filter.ThreadFilter;
+import com.advisoryapps.smack.packet.Message;
+import com.advisoryapps.smack.packet.Packet;
+import com.advisoryapps.smack.test.SmackTestCase;
 
 /**
  * Test the XHTML extension using the low level API

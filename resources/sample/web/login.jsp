@@ -43,7 +43,7 @@
   - OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
   - SUCH DAMAGE.
  --%>
-<%@ page import="org.jivesoftware.smack.*"%>
+<%@ page import="com.advisoryapps.smack.*"%>
 <%@ include file="global.jsp" %>
 <%
     // If we already got a connection then proceed to view the roster

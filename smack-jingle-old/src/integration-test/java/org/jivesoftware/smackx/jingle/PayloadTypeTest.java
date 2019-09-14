@@ -12,13 +12,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.jingle;
+package com.advisoryapps.smackx.jingle;
 
 import java.util.ArrayList;
 
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.jingle.media.PayloadType;
-import org.jivesoftware.smackx.jingle.media.PayloadType.Audio;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.jingle.media.PayloadType;
+import com.advisoryapps.smackx.jingle.media.PayloadType.Audio;
 
 public class PayloadTypeTest extends SmackTestCase {
 

@@ -6,12 +6,12 @@ Processing Incoming Stanzas
 Smack provides a flexible framework for processing incoming stanzas using two
 constructs:
 
-  * `org.jivesoftware.smack.StanzaCollector` -- a class that lets you synchronously wait for new stanzas.
-  * `org.jivesoftware.smack.StanzaListener` -- an interface for asynchronously notifying you of incoming stanzas.  A stanza listener is used for event style programming, while a stanza collector has a result queue of stanzas that you can do polling and blocking operations on. So, a stanza listener is useful when you want to take some action whenever a stanza happens to come in, while a stanza collector is useful when you want to wait for a specific stanza to arrive. Stanza collectors and listeners can be created using an `XMPPConnection` instance.
+  * `StanzaCollector` -- a class that lets you synchronously wait for new stanzas.
+  * `StanzaListener` -- an interface for asynchronously notifying you of incoming stanzas.  A stanza listener is used for event style programming, while a stanza collector has a result queue of stanzas that you can do polling and blocking operations on. So, a stanza listener is useful when you want to take some action whenever a stanza happens to come in, while a stanza collector is useful when you want to wait for a specific stanza to arrive. Stanza collectors and listeners can be created using an `XMPPConnection` instance.
 
-The `org.jivesoftware.smack.filter.StanzaFilter` interface determines which
+The `StanzaFilter` interface determines which
 specific stanzas will be delivered to a `StanzaCollector` or `StanzaListener`.
-Many pre-defined filters can be found in the `org.jivesoftware.smack.filter`
+Many pre-defined filters can be found in the `com.advisoryapps.smack.filter`
 package.
 
 The following code snippet demonstrates registering both a stanza collector

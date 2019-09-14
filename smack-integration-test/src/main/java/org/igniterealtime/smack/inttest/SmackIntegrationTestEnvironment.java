@@ -16,7 +16,7 @@
  */
 package org.igniterealtime.smack.inttest;
 
-import org.jivesoftware.smack.tcp.XMPPTCPConnection;
+import com.advisoryapps.smack.tcp.XMPPTCPConnection;
 
 public class SmackIntegrationTestEnvironment {
 

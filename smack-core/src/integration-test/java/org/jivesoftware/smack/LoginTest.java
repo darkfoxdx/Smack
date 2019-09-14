@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smack;
+package com.advisoryapps.smack;
 
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smack.util.StringUtils;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smack.util.StringUtils;
 
 /**
  * Includes set of login tests.

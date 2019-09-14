@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smack;
+package com.advisoryapps.smack;
 
 import java.util.Iterator;
 
-import org.jivesoftware.smack.packet.Presence;
-import org.jivesoftware.smack.test.SmackTestCase;
+import com.advisoryapps.smack.packet.Presence;
+import com.advisoryapps.smack.test.SmackTestCase;
 
 /**
  * Ensure that the server is delivering messages to the correct client based on the client's

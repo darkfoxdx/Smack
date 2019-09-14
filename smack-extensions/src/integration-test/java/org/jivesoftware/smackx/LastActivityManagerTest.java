@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.jivesoftware.smackx;
+package com.advisoryapps.smackx;
 
-import org.jivesoftware.smack.TCPConnection;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.packet.LastActivity;
+import com.advisoryapps.smack.TCPConnection;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.packet.Message;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.packet.LastActivity;
 
 public class LastActivityManagerTest extends SmackTestCase {
 

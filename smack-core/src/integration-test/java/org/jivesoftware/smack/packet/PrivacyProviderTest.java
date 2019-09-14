@@ -12,10 +12,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smack.packet;
+package com.advisoryapps.smack.packet;
 
-import org.jivesoftware.smack.provider.PrivacyProvider;
-import org.jivesoftware.smack.test.SmackTestCase;
+import com.advisoryapps.smack.provider.PrivacyProvider;
+import com.advisoryapps.smack.test.SmackTestCase;
 import org.xmlpull.v1.XmlPullParserFactory;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

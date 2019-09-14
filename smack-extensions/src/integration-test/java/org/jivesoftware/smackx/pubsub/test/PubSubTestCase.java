@@ -14,15 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jivesoftware.smackx.pubsub.test;
+package com.advisoryapps.smackx.pubsub.test;
 
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.test.SmackTestCase;
-import org.jivesoftware.smackx.pubsub.AccessModel;
-import org.jivesoftware.smackx.pubsub.ConfigureForm;
-import org.jivesoftware.smackx.pubsub.FormType;
-import org.jivesoftware.smackx.pubsub.LeafNode;
-import org.jivesoftware.smackx.pubsub.PubSubManager;
+import com.advisoryapps.smack.XMPPException;
+import com.advisoryapps.smack.test.SmackTestCase;
+import com.advisoryapps.smackx.pubsub.AccessModel;
+import com.advisoryapps.smackx.pubsub.ConfigureForm;
+import com.advisoryapps.smackx.pubsub.FormType;
+import com.advisoryapps.smackx.pubsub.LeafNode;
+import com.advisoryapps.smackx.pubsub.PubSubManager;
 
 /**
  *
